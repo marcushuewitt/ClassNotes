@@ -1,48 +1,40 @@
-# Class01 - TOC
 
 [TOC levels=4 numbered]: # "Class01"
 
-- [Class01 - TOC](#class01---toc)
-- [Objectives](#objectives)
-- [Topics](#topics)
-  - [Introduction to Programming (and Python)](#introduction-to-programming-and-python)
-    - [What is a program?](#what-is-a-program)
-    - [Python](#python)
-    - [Why Python?](#why-python)
-    - [More background on Python](#more-background-on-python)
-      - [Python Enhancement Proposals (PEPs)](#python-enhancement-proposals-peps)
+- [Class01](#class01)
+  - [Objectives](#objectives)
+- [Accessing Course Content](#accessing-course-content)
+- [Introduction to Programming (and Python)](#introduction-to-programming-and-python)
+  - [What is a program?](#what-is-a-program)
+  - [The Python Programming Language](#the-python-programming-language)
+  - [Why learn Python?](#why-learn-python)
+  - [More background on Python](#more-background-on-python)
+  - [Python Enhancement Proposals (PEPs)](#python-enhancement-proposals-peps)
   - [Python Terms](#python-terms)
     - [Why do this? Don't be a Pakled.](#why-do-this-dont-be-a-pakled)
-  - [Getting to Know your Computer](#getting-to-know-your-computer)
-    - [What happens when you "run" a python program](#what-happens-when-you-%22run%22-a-python-program)
-    - [Introduction to the command line](#introduction-to-the-command-line)
+- [Getting to Know your Computer](#getting-to-know-your-computer)
+  - [What happens when you "run" a python program](#what-happens-when-you-%22run%22-a-python-program)
+- [Introduction to the command line, terminal, and shell](#introduction-to-the-command-line-terminal-and-shell)
+  - [Setting the historical context](#setting-the-historical-context)
+    - [So, terminal or console?](#so-terminal-or-console)
     - [What about shells?](#what-about-shells)
-    - [We will not make heavy use Shells/Terminals/Consoles in this course...](#we-will-not-make-heavy-use-shellsterminalsconsoles-in-this-course)
-    - [Resources for Learning Command (CMD) Line (using Bash)](#resources-for-learning-command-cmd-line-using-bash)
+    - [You will need to know the basics of the Bash shell](#you-will-need-to-know-the-basics-of-the-bash-shell)
+    - [Resources for learning Bash.](#resources-for-learning-bash)
+- [Exercise01](#exercise01)
   - [Introduction to Git & GitHub](#introduction-to-git--github)
-    - [Installing Git](#installing-git)
+- [Exercise 02](#exercise-02)
     - [Creating and using GitHub account](#creating-and-using-github-account)
-  - [Installing Anaconda](#installing-anaconda)
-    - [The two major version of Python](#the-two-major-version-of-python)
-    - [Anaconda](#anaconda)
-    - [Download and install Anaconda](#download-and-install-anaconda)
-  - [Installing PyCharm](#installing-pycharm)
-  - [Initial settings/setup of VSCode](#initial-settingssetup-of-vscode)
-    - [Test your installation by writing your first program](#test-your-installation-by-writing-your-first-program)
-    - [Cloning course repos](#cloning-course-repos)
-  - [Introduction to Markdown](#introduction-to-markdown)
-    - [Installing Markdown Navigator](#installing-markdown-navigator)
-  - [Useful online resources](#useful-online-resources)
+- [Exercise 03: Cloning course repos](#exercise-03-cloning-course-repos)
 - [Summary](#summary)
 - [In class work](#in-class-work)
   - [Practice Exercises](#practice-exercises)
-    - [Exercise01: Hello World - GitHub Tutorial](#exercise01-hello-world---github-tutorial)
-    - [Exercise02: Update your private repo](#exercise02-update-your-private-repo)
-    - [Exercise03: Create a README.md file within the root directory of you your private repo.](#exercise03-create-a-readmemd-file-within-the-root-directory-of-you-your-private-repo)
-    - [Exercise04: Create a public repo](#exercise04-create-a-public-repo)
-  - [Assignment01](#assignment01)
 
-# Objectives
+# Class01
+
+In this first class I provide a (very) quick introduction to Python and computer programming, and then introduce command line interface, git/github, and help students install necessary software.
+
+
+## Objectives
 
 * Introduce Basic Computer Architecture and Command Line interface
 * Introduce and install Git and GitHub
@@ -55,21 +47,28 @@
 * Practice staging, committing, pushing and pulling project changes.
 * Complete Assignment #1 and Quiz#1.
 
-# Topics
+# Accessing Course Content
 
-## Introduction to Programming (and Python)
+All content for this course is available via GitHub. 
 
-### What is a program?
+Within GitHub I've created an organization for ITM695x programming for managers.
+
+You will be able to access this course content once you create your GitHub account (this will be an exercise that you will do a bit later on in this class). For now, just read the content found on the professors screen.
+
+
+# Introduction to Programming (and Python)
+
+## What is a program?
 
 A program is a sequence of instructions to accomplish a task. A programming language is different than a "natural language" (i.e., English, French, Spanish); it's much more formal and meant to force the "speaker" of the language to be very specific. The "listener" of the language is the computer, and computers have difficulties with nuanced communication and thus require very detailed and specific instructions on how to perform any task. NOTE: Computers only look smart because some programmer(s) make it look that way.
 
-###  Python
+##  The Python Programming Language
 
 The programming language you will be learning in this course is Python. There are many other languages out there. Some languages are general purpose -  in that they are meant to allow a programmer to create virtually any application, while others are more domain specific and focus on a subset of programs/application development (i.e. Mathematica, MatLab)
 
 Python is classified as a "high-level" language. High-level languages are much easier to work with than low-level languages (such as assembler, and to some extent, C). Most programs are developed in high-level languages. Low-level languages are used to develop programs that are "close to the machine" and involve things like creating device drivers, and specific programs to work with low-level features of a computer chip.
 
-### Why Python?
+## Why learn Python?
 
 There are literally [hundreds of programming languages](https://en.wikipedia.org/wiki/List_of_programming_languages) to choose from.
 
@@ -89,13 +88,13 @@ Even if you don't plan to program, conduct data science/data analysis, or packet
 
 This course will give you the necessary foundational knowledge of the language and tools so that you can more confidently access the many resources found on the internet to help you further develop your skills for whatever specialties you choose.
 
-### More background on Python
+## More background on Python
 
 Not named after snake, but from Monty Python (The original creator of Python, Guido Van Rosssum, was a big fan of Monty Python, and the  Python documentation and community can reflect this and be a bit humorous/whimsical)
 
 Python has a unique culture and community based on it's core design philosophy on readability and syntax that enables you to write concise programs.
 
-####  Python Enhancement Proposals (PEPs)
+##  Python Enhancement Proposals (PEPs)
 
 * Python language development is managed through PEP's
     * https://www.python.org/dev/peps/
@@ -129,7 +128,7 @@ In the following sections we'll get to know a bit more about your computer, lear
 [![Don't be a Pakled](http://img.youtube.com/vi/KeFoGo3N_4g/0.jpg)](https://youtu.be/KeFoGo3N_4g)
 
 
-## Getting to Know your Computer
+# Getting to Know your Computer
 
 ![computer_intro_01](images/computer_intro_01.png)
 
@@ -139,7 +138,7 @@ In the following sections we'll get to know a bit more about your computer, lear
 
 ![computer_intro_04](images/computer_intro_04.png)
 
-### What happens when you "run" a python program
+## What happens when you "run" a python program
 
 
 ![computer_intro_05](images/computer_intro_05.png)
@@ -155,8 +154,11 @@ The .pyc file contains bytecode – this cannot be read by humans, nor directly 
 The Python virtual machine reads the .pyc file and “runs” the program by translating the bytecode to local instructions specific to the “machine” (computing device which the program is running on)
 
 
-### Introduction to the command line
+# Introduction to the command line, terminal, and shell
 
+Any "power user" (of a computer) will know how to navigate and use the command prompt/terminal. In this course, you will need to develop basic terminal skills. To get started, let's look at the history of computers and where the interrelated terms "terminal", "shell", "console" and "command prompt" come from.
+
+## Setting the historical context
 
 In the image below we find a PC on the left, and one of many "dumb terminals" on the right.
 
@@ -164,18 +166,20 @@ In the image below we find a PC on the left, and one of many "dumb terminals" on
 
 Before the development of personal computers, computer systems were large and centralized. Access to these large "mainframe" (and later "mini") computers was generally through what were called "dumb" terminals. These terminals had very little to no processing power, and simply "knew" how to display text and read input that would be sent across a wire to the central computer. These terminals where physical extensions of the main computer. Many terminals were connected to the same computer.
 
-Terminals were used by programmers and users to accomplish tasks. You might access via a user console, an operator console, or an administrator console. Each of these offered particular uses of the main computer.
+Terminals were used by programmers and users to accomplish tasks. You might access via a user console, an operator console, or an administrator console. Each of these offered particular uses of the main computer. So, originally, the console was the physical terminal device that users used to access the computer.
 
 With the advent of the PC, both the processing (mainframe) and the console (terminal) were merged into one personal device.
 
-Initial computers were not multi-tasking. One user, using a single console, would start and run one program.
+Initial PC computers were not multi-tasking. There was only one user, using a single console, who would start and run one program at a time.
 
-As PC's evolved, their operating systems became more sophisticated, and we began to see a duplication of the mainframe architecture; that is, a user could have multiple "terminals" (in this case, they would use software, not hardware) that they would use to access the same core system processor.
+As PC's evolved, their operating systems became more sophisticated, and we began to see a duplication of the mainframe architecture; that is, a user could have multiple "terminals" (in this case, they would use software, not hardware) and run multiple programs.
 
 
 ![Multiple Terminals](images/multiple_terminals.jpg)
 
-So, for modern computers, should we these ways of accessing the computer a terminal? or a console?
+### So, terminal or console?
+
+For modern computers, should we see ways of accessing the computer as a terminal? or a console?
 
 As we see from the historical context of the mainframe world, in a sense, we could use these terms interchangeably. When I'm working as an admin, I may open an admin console. This would be done by running terminal software. Frankly, though, these terms are often used synonymously.
 
@@ -185,23 +189,19 @@ Now, we have a third term that is often used synonymously with the other two -- 
 
 When computers began having software terminals, the user needed a  "language" to communicate with the computer. The language we use is presented as a user shell... a wrapper, in a sense, or what has become known as a shell (program), that provides a user interface (through a language) to the system.
 
-On Linux, and most flavors of Unix, the most common shell is BASH (Born Again Shell). This is also the shell used in MacOS (which is an extension of Unix). Another popular shell is zsh (z-shell) - used commonly by developers in MacOS.
+On Linux, and most flavors of Unix, the most common shell is BASH (Born Again Shell). This is also the shell used in MacOS (which is an extension of Unix). Another popular shell is zsh (z-shell) - used commonly by developers in MacOS.(but there are others as well)
 
-Microsoft and the general "PC" market did not evolve from Unix, and therefore developed a different technical approach to creating a terminal, and communicating via a shell to the core computer. There's no need to get into great detail about this for this class, other than to associate what we've already covered with how Windows handles things.
+Microsoft and the general "PC" market did not evolve from Unix, and therefore developed a different technical approach to creating a terminal, and communicating via a shell to the core computer. There's no need to get into great detail about this for this class, other than to associate what we've already covered with how Windows handles things. In windows, you run either "CMD" or "PowerShell" to get terminal access to the computer.
 
 In windows, our terminal and shell is commonly called the "command prompt," "command terminal," or "command shell" (NOTE: A prompt is simply a curser that indicates that system is waiting for input). Most modern versions of windows (especially the server variety) have another type of terminal access, that referred to as "Powershell".
 
 
-### We will not make heavy use Shells/Terminals/Consoles in this course...
+### You will need to know the basics of the Bash shell
 
-In this course, we will review a few commands so that you can become familiar with the basic commands available in Bash and/or windows command prompt (NOTE: With the installation of Git on a PC, we get a Bash command shell. This behaves pretty much the same as the Bash shells found on any Unix and MacOS system). I'd recommend that you get familiar with using the bash shell (and most of my examples will use the bash shell). Our primary focus though will be on learning Python, knowing the command line will just help you "get around" your computer.
+In this course, we will review a few commands so that you can become familiar with the basic commands available in Bash (NOTE: With the installation of Git on a PC, a Bash shell is also installed). Bash shells behave pretty much the same as the Bash shells found on any Unix (i.e. Linux), MacOS system, and Windows. Though our primary focus though will be on learning Python, knowing bash will allow you better control of your computer.
 
 
-### Resources for Learning Command (CMD) Line (using Bash)
-
-You will not be required to develop bash scripts in this course, but if you want to, you can quickly learn how to do such things. For a comprehensive introduction to the full "power" afforded by bash, I'd suggest working through the examples found http://www.tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html, then here http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html and finally here http://www.tldp.org/LDP/abs/html/.
-
-Also, there is a free course on Codeacademy (https://www.codecademy.com/learn/learn-the-command-line) that provides an excellent introduction to Bash.
+### Resources for learning Bash.
 
 
 There are nine basic bash commands you should familiarize yourself with:
@@ -228,6 +228,28 @@ To run a program, you simply type the program name at the command prompt. For in
 ```
 python hello.py
 ```
+
+
+Bash itself is also like a computer programming language. You will not be required to develop bash scripts in this course, but if you want to, you can quickly learn how to do such things. For a comprehensive introduction to the full "power" afforded by bash, I'd suggest working through the examples found http://www.tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html, then here http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html and finally here http://www.tldp.org/LDP/abs/html/.
+
+Also, there is a free course on Codeacademy (https://www.codecademy.com/learn/learn-the-command-line) that provides an excellent introduction to Bash.
+
+# Exercise01
+
+* Install Git (see git_install.md located in the ClassNotes/Class01 repository)
+* Run bash
+  * go to your home directory (`cd ~`)
+  * go into your Documents directory (for Mac -> `cd Documents`, for Windows -> `cd "My Documents"`)
+  * create a new folder call btest (`mkdir btest`)
+  * change directory into this new folder (`cd btest`)
+  * NOTE: You can always test to see which directory you are in by running the command `pwd` (which stands for **p**rint **w**orking **d**irectory)
+  * using the "echo" command (this is a bash command that simply echos the given test to the output) and output redirection to create a new file called "about.txt" that contains your first and name name (`echo "FName LName" > about.txt`)
+  * now, move up one directory (`cd ..`)
+  * Create a new directory called btest2 (`mkdir btest`)
+  * Copy the content of `btest` into `btest2` 
+  * remove the btest directory (`rm -rf btest`)
+  * once you have finished, show the professor so that he can verify that you've done the work.
+  
 
 ## Introduction to Git & GitHub
 
@@ -259,171 +281,38 @@ When changing files that are tracked by Git, they enter a **modified** state. On
 
 If a mistake is made, we can roll-back any changes to a previous commit. Also, we can have various versions of our project in branches. A common pattern is to have three levels of staging. The development branch, the testing branch, and then the master "release" branch.
 
-Let's install git, and pracdtice using it.
+After exercise01 we should know have git installed, let's practice using it and github
 
-### Installing Git
+# Exercise 02
 
-Download Git from the following link https://git-scm.com/download/win
-
-The web page should automatically begin downloading the correct version -- but, if you have
-a 64-bit machine, make sure you're downloading the 64-bit edition (it will say in the
-title of the download)
-
-Select the appropriate installation program to install.
-
-NOTE: You may get a pop-up window that asks if you approve this program to make changes
-to your computer. Select yes. Once the installation is running, you'll see this initial
-screen.
-
-![git_setup_01](images/git_setup_01.png)
-
-Select next. In the following screen, you'll be asked for the destination where the
-program will be installed. Unless you have reasons to do otherwise (and you know well
-the OS and filesystem) leave this to the default value.
-
-![git_setup_02](images/git_setup_02.png)
-
-Click next, and then you will be presented with the "select components" dialog.
-
-![git_setup_03](images/git_setup_03.png)
-
-Accept the defaults but add a check next to the last two options… as follows:
-
-![git_setup_04](images/git_setup_04.png)
-
-NOTE: MacOS and Linux will most likely not have the second last option. No need
-to set this on those platforms.
-
-In the next dialog box, keep the default settings.
-
-![git_setup_05](images/git_setup_05.png)
-
-In the next dialog box select Use Nano (Do NOT LEAVE THE DEFAULT TO VIM, unless
-you're a "power user" who's had experience using VIM).
-
-![git_setup_06](images/git_setup_06.png)
-
-
-In the next window, accept the defaults.
-
-![git_setup_07](images/git_setup_07.png)
-
-Also, keep the defaults for the next dialog (which will look different, or not even asked,  on MacOS)
-
-![git_setup_08](images/git_setup_08.png)
-
-
-Leave the next screen at its default settings.
-
-![git_setup_09](images/git_setup_09.png)
-
-As well as the next (leave default settings)
-
-![git_setup_10](images/git_setup_10.png)
-
-And leave the next screen to its default settings and then click install.
-
-![git_setup_11](images/git_setup_11.png)
-
-Once installation begins, you'll see the following screen.
-
-![git_setup_12](images/git_setup_12.png)
-
-Then in the final screen, click finish.
-
-![git_setup_13](images/git_setup_13.png)
+* Create a github account using your UT email address (if you already have a github account under an other email address, create a new account under your UT address - you can copy any content you'd like into your other repos at a later time)
+* Once you've created your account, send your professor an email with the subject GITHUB, and the body of the message containing your username an d your email that you used (which, again, needs to be your UT address).
+* As the professor received your emails, he will add your to the class repository. Once this is done, you will see a number of class repositories. 
+* start a bash command prompt 
+* You will also need to make a few configuration changes to your local git configuration. Start a bash prompt and type the following:
+  * Set username:
+    * `git config --global user.name "Fname lname"`
+  * Set email:
+    * `git config --global user.email "MY_NAME@example.com"`
+  * Finally, to avoid having to type passwords each time you try to access GitHub (we'll see how to do this later), configure git to cache password:
+    * `git config --global credential.helper cache`
+    * The above command will default to caching password for 15 minutes. You can extend this after if you'd like
+      * `git config --global credential.helper 'cache --timeout=3600'`
+      * NOTE: The above command will cache passwords for 1 hour.
+* Once you have completed these commands, you can close your bash terminal.
 
 
 ### Creating and using GitHub account
 
 Go to github.com and follow the procedure to create an account.
-
 Send an email with your account information to the professor (tcsmith@ut.edu). The professor will add you to the class repositories. Once he as added everyone, the professor will demonstrate the basic navigation of the site.
 
-
-## Installing Anaconda
-
-### The two major version of Python
-
-There are two versions of Python, the 2.x series, and the 3.x series. Unlike most languages that retain backward compatibility, version 3.x python shed some of the old ways of working in python. This was necessary to clean up and refresh the language (other languages, such as Java, have retained backward compatibility, but it also creates a lot of complexity as new layers of ways of doing things are plastered on top of old ways. With Python's clean break from the past, there were free to make changes and not increase the complexity of working in the language by having to retain old ways of doing things. There was a downside to this approach though, and that is that early Python programs needed to be "ported" (a computer programming term for rewriting the program) for the new Python 3.x language. Also, programmers had to learn the new syntax and concepts, and many were reluctant. It has taken many years, but much of the Python codebase has been ported to version 3.x, and most programmers now use the new version.
-
-### Anaconda
-
-Anaconda is Python 3 with many of the common libraries used in data science added into one large install package. For this course, we'll be using the Anaconda version of Python. NOTE: This version of Python is no different than the official version of Python 3.x that can be found on Python.org - it just adds many pre-configured libraries.
-
-### Download and install Anaconda
-
-Download anaconda from the anacondo.org website. The download page is located
-at https://www.anaconda.com/download/
-
-On this screen, you should see the option to install either Python 3.6 or
-Python 2.7. We will be using Python 3.6, so it's important that this is the
-version your install.
-
-Under Python 3.6, you may have the choice of 32-bit or 64-bit versions. Most modern computer(within the last 3-4) are 64 bit (if you don't know for sure, see here for how to check https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-windows-2624475)
-
-![conda_ssetup_01](images/conda_ssetup_01.png)
-
-Once downloaded (it's a large file) you need to go into your download directory and run the installation program.
-
-The first screen you see should be as follows…
-
-![conda_setup_02](images/conda_setup_02.png)
-
-
-Click next:
-
-The next screen is the License Agreement. Click agree if you agree.
-
-![conda_setup_03](images/conda_setup_03.png)
-
-Next, you'll be presented with the following screen. Unless you have reason to do otherwise, keep the default to "Just Me"
-
-![conda_setup_04](images/conda_setup_04.png)
-
-Next, you'll need to supply the location to install the application. Unless you have good reason to do otherwise, leave this to the default location already set.
-
-![conda_setup_05](images/conda_setup_05.png)
-
-On the next screen, just accept the default (as seen in this screen capture)
-
-![conda_setup_06](images/conda_setup_06.png)
-
-Select install, and now you will be presented with an install progress screen.
-
-![conda_setup_07](images/conda_setup_07.png)
-
-Once completed, you will be presented with the final screen. Select finish.
-
-![conda_setup_08](images/conda_setup_08.png)
-
-
-
-## Installing PyCharm
-
-VSCode is included in the Anaconda instllation. At some point, you'll be asked if you want to install it -- say yes, and just accept the defaults during the installation.
-
-## Initial settings/setup of VSCode
-
-VSCode is very extensible, with many addon's available. 
-
-The professor will walk you through the initial setup of useful addons for Python programming.
-
-### Test your installation by writing your first program
-
-Let's create and run our first program. Traditionally, this is a "Hello World" program that simply prints the phrase Hello World to the screen.
-
-The professor will walk you through this process and running your first program.
-
-### Cloning course repos
-
-We will now download our class repos into our project.
-
-Your personal repo (see you professor for your assigned repos name)
-* Shared
-* ClassNotes
-* Tests
-* Assignments
+# Exercise 03: Cloning course repos
+* The professor will walk you through downloading our class repos into our project.
+* Your personal repo (see you professor for your assigned repos name)
+  * ClassNotes
+  * Tests
+  * Assignments
 
 To download each of these, you will need to find the address for the GitHub repository.
 
@@ -445,40 +334,6 @@ Open a terminal in the directory that you will store your repos.
 ON the command line, for each repo, type the following:
 
 `git clone <address of our repos>`
-
-## Introduction to Markdown
-
-Most of the material for this course is written in Markdown. Markdown is a simplified means of creating HTML pages (and other documents).
-
-The Markdown language is quite simple and will benefit you to know.
-
-PS: We'll discuss "pull requesting" later, but this allows you to propose an addition and/or correction to an existing repo that you do not own. For this course, if you see a typo, or would like to add to the content, you can set up a pull request with the requested change to the course content.
-
-See the markdown "cheat sheet" for all you'll need to write/edit Markdown files.
-
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
-
-### Installing Markdown Navigator
-
-VSCode supports creating and viewing Markdown files, but there is a plugin that improves upon this base functionality.
-
-The professor will walk you through how you can install the plugin in VScode.
-
-## Useful online resources
-
-We'll be working through much of the material found in the online book "How to think like a computer scientist."
-http://openbookproject.net/thinkcs/python/english3e/
-
-Though this has the term "computer scientist" in the title, it's not as technical as a computer science course would be... instead, it provides an excellent gentle introduction to software developing using python.
-
-Other resources include:
-
-[Stack Overflow](https://stackoverflow.com/) is the most popular site for programmers to share knowledge. You can search for previous questions/answers, or post one yourself. Be sure to be very detailed in any question you post, and include the source code you're having problems with or have a question about.
-
-[Code Academy](https://www.codecademy.com/en/tracks/python) has a number of free online courses. They have an introductory Python section that provides an interactive introduction to basic Python.
-
-[Official Python Documentation](https://docs.python.org/3/) available from Python.org is the documentation developed by the core Python team. It contains a wealth of information on Python but serves more as a reference than a tutorial.
 
 # Summary
 
@@ -504,63 +359,6 @@ Exercises are not marked. They are an opportunity for you to practice the materi
 >NOTE2: I will be looking for evidence that you've completed the exercises when determining your final class participation grade and repository management grade.
 
 
-### Exercise01: Hello World - GitHub Tutorial
-* Complete the Git Hub introductory tutorial --
-* [Git Hub Tutorial](https://guides.github.com/activities/hello-world/)
-
-### Exercise02: Update your private repo
-* First, make sure you have successfully cloned your personal repo to your local drive.
-* In your local private repo, create four folders Assignments, Exercises, Tests, and Sandbox.
-    * Sandbox will be where you can place your experimental code (an area where you can experiment and learn without messing up your organized folders).
-    * Create a file called Exercise02.md within the Exercises folder
-    * Copy the instructions for Exercise02 into this Exercise01.md file
-    * Move your HelloWorld.py program into the Sandbox folder within your personal repo (ST????).
-    * Commit these changes to your ST??? repo, and then push this commit to GitHub
-    * Login to your GitHub account
-    * Find and save a screen capture of the Commit history for your ST??? repo.
-    * Find and save a screen capture of the Changes made by the resent commit.
-    * Send both screen captures via email to the professor.
-
-
-### Exercise03: Create a README.md file within the root directory of you your private repo.
-
-* Using VSCode create a README.md file within the root directory of your ST??? personal repo
-* Edit the README.md file using the following template:
-
-```markdown
-# Welcome to my ITM695-X repo
-
-### Name
-### Masters Degree being sought (and specialization/major)
-### Undergrad Degree and Major
-### Email address
-
-### About me:
-
-<Insert a brief paragraph that introduces yourself -- mention your personal and/or professional interests and what you hope to accomplish in ITM695-X>
-
-<insert links to any webpage/linkedin/facebook/instangram info about yourself>
-```
-
-### Exercise04: Create a public repo
-
-In this class we have a number of private repositories. Private repositories mean that only those that are invited/added to the repository can access it's contents (normally, you need to pay for such a service from GitHub). This private repo will give you the peace of mind to know that any of the mistakes, bad code, errors, etc. that you make will not be available to the public.
-
-You can also create your own public repositories. In this exercise you will create such a repository.
-
-* Login into your GitHub account.
-* On GitHub, create a new repository called PublicRepo, select create initial README.md file.
-* Copy the address of this repo.
-* Clone this repo to your local project folder.
-* Copy the file you created in Exercise03 into this repo (the README.md about you).
-* Add file, commit change (with descriptive message), and push an update to GitHub.
-* Once completed, you will have a new folder alongside the other folders (ClassNotes, Assignments, Tests, etc.).
-
-## Assignment01
-
-Assignments will be posted to the Assignments repos. Assignments are to be done on your own without assistance from others. You can look through any course notes, and also access any website or books.
-
-To see the assignment instructions you must complete a "pull request" from the Assignments repo to get the instructions for Assignment01.
 
 
 
