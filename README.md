@@ -6,27 +6,29 @@ Welcome to Application Development for Managers.
 [TOC levels=2,3,4]: # "Table of contents"
 
 # Table of contents
-- [Course Introduction](#course-introduction)
-- [Course Delivery Format](#course-delivery-format)
-- [Syllabus](#syllabus)
-- [Submitting assignments and tests](#submitting-assignments-and-tests)
-- [Our focus for this course](#our-focus-for-this-course)
-- [Tools we will use](#tools-we-will-use)
-- [Expectations](#expectations)
+- [ITM695-X May Term 2019](#itm695-x-may-term-2019)
+- [Table of contents](#table-of-contents)
+  - [Course Introduction](#course-introduction)
+  - [Course Delivery Format](#course-delivery-format)
+  - [Syllabus](#syllabus)
+  - [Submitting assignments and tests](#submitting-assignments-and-tests)
+  - [Our focus for this course](#our-focus-for-this-course)
+  - [Tools we will use](#tools-we-will-use)
+  - [Expectations](#expectations)
     - [What I expect from you](#what-i-expect-from-you)
     - [What you should expect from me](#what-you-should-expect-from-me)
-- [Class List](#class-list)
-- [Let's begin.](#lets-begin)
+  - [Class List](#class-list)
+  - [Let's begin.](#lets-begin)
 
 
 ## Course Introduction
 
 
-Upon the successful completion of this course, you will have developed a fundamental understanding of application development using the Python language. My focus will be on helping you build the problem-solving skills and critical thinking necessary for 'coding' applications and an understanding of coding as specification.
+Upon the successful completion of this course, you will have developed a fundamental understanding of application development using the Python language. My focus will be on helping you build the problem-solving skills and critical thinking necessary for 'coding' applications and an understanding of coding as specification. I will also cover related topics such as DevOps (using Git and GitHub) and Bash shell. 
 
 ![coding_as_specification](Class01/images/coding_as_specification.png)
 
-This course is a "special topics" course, and as such, there will most likely be typos, errors, and general "hiccups" in the process of delivering this course. The advantage though is that you get access to a new line of instruction being developed here at UT.
+This course is a "special topics" course, and as such, there will most likely be typos, errors, and general "hiccups" in the process of delivering this course. The advantage though is that you get access to a new line of instruction being developed here at UT. I welcome "pull requests" to help improve the content (pull requests are a means of proposing edits to a repository on GitHub; something that we will cover later).
 
 ```
 Please feel free to submit a [pull request](https://help.github.com/articles/about-pull-requests/)
@@ -41,10 +43,11 @@ KBB203
 
 ## Course Delivery Format
 
-The course will be "face to face". When possible, live demonstration will favored over
-slides. All class notes, assignments and tests will be made available via github (more on this later).
+The course will be "face to face". 
 
-We will meet 10 times. Each class will promptly start at 5:00 pm and will be completed before 10 pm. You are encouraged to arrive much earlier than this (4:00 to 4:30 and use this extra time to student/prepare and finalize any work required from the previous class). NOTE: The regular schedule for this class is 4:30 to 10:15.
+When possible, live demonstration will favored over slides. All class notes, assignments and tests will be made available via github (more on this later).
+
+We will meet 10 times. Each class will promptly start at 5:00 pm and will be completed before 10 pm. You are encouraged to arrive earlier than this (classroom should be open before 4:30) and use this extra time to student/prepare and finalize any work required from the previous class. NOTE: The regular schedule for this class is 4:30 to 10:15.
 
 General format of class (note that duration of lecture may vary):
 * 05:00 - 06:45 Lecture and exercises
@@ -54,15 +57,14 @@ General format of class (note that duration of lecture may vary):
 
 All course announcements and grades will be stored using [Blackboard](https://ut.blackboard.com/).
 
-Most lecture material is written in Markdown (https://en.wikipedia.org/wiki/Markdown) and is available on our class GitHub repo (we'll talk more about this later). Lectures will consist of reviewing and discussing thie content loaded on GitHub as well as live demonstration.
+Most lecture material is written in Markdown (https://en.wikipedia.org/wiki/Markdown) and will be available on our class GitHub repo (we'll talk more about this later). Lectures will consist of reviewing and discussing the content loaded on GitHub as well as live demonstration. To keep things as flexible as possible, and to address any new topics that come up, the content for each class will be released incrementally (Class02 after Class01, Class03 after Class02, etc.).
 
-In each class you will have exercises, assignments (usually 1), and a quiz.
+In each class you will have exercises, assignments (usually 1) and a quiz (quizzes will be made available on BlackBoard).
 
-*Exercises* are not marked and are used only for you to practice and develop your programming skills. The professor, and other students, can help you with exercises -- but, try to do as much of them on your own as you can (Use this as an opportunity to learn to be self-sufficient. If you don't know something, you can look through notes, access websites, official Python documentation, etc. If you get really stuck, reach out to the professor.)
+**Exercises** are not directly marked (but, your portfolio mark will depend on them) and are used only for you to practice and develop your programming skills. The professor, and other students, can help you with exercises -- but, try to do as much of them on your own as you can (Use this as an opportunity to learn to be self-sufficient. If you don't know something, you can look through notes, access websites, official Python documentation, etc. If you get really stuck, reach out to the professor.)
 
-*Assignments* are submitted and marked. This must be your own independent work; therefore, you can't ask for help from the professor or fellow classmates.
+**Assignments** are submitted and marked. This must be your own independent work; therefore, you can't ask for help from the professor or fellow classmates.
 
-*Quizzes* are short multiple choice tests that will be made available during class. These must be completed within class time (there will be time allocated near the end of class) and you must work on your own (no help from notes, internet, or fellow students). Use Quizzes to identify which areas you need to work on more. You will have up to three attempts per quiz with the last attempt counting for your quiz mark. Quizzes will be made available via blackboard. Quizzes will consist of 5-10 multiple choice questions and you will have up to 15 minutes to complete the quiz.
 
 ## Syllabus
 
