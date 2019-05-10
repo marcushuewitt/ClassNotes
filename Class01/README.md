@@ -12,7 +12,7 @@
   - [Python Enhancement Proposals (PEPs)](#python-enhancement-proposals-peps)
   - [Python Terms](#python-terms)
     - [Why do this? Don't be a Pakled.](#why-do-this-dont-be-a-pakled)
-- [Getting to Know your Computer](#getting-to-know-your-computer)
+- [Getting to Know Your Computer](#getting-to-know-your-computer)
   - [What happens when you "run" a python program](#what-happens-when-you-%22run%22-a-python-program)
 - [Introduction to the command line, terminal, and shell](#introduction-to-the-command-line-terminal-and-shell)
   - [Setting the historical context](#setting-the-historical-context)
@@ -31,7 +31,7 @@
 
 # Class01
 
-In this first class I provide a (very) quick introduction to Python and computer programming, and then introduce command line interface, git/github, and help students install necessary software.
+In this first class, I provide a (very) quick introduction to Python and computer programming, and then introduce command line interface, git/GitHub, and help students install the necessary software.
 
 
 ## Objectives
@@ -51,7 +51,7 @@ In this first class I provide a (very) quick introduction to Python and computer
 
 All content for this course is available via GitHub. 
 
-Within GitHub I've created an organization for ITM695x programming for managers.
+Within GitHub, I've created an organization for ITM695x programming for managers.
 
 You will be able to access this course content once you create your GitHub account (this will be an exercise that you will do a bit later on in this class). For now, just read the content found on the professors screen.
 
@@ -60,19 +60,19 @@ You will be able to access this course content once you create your GitHub accou
 
 ## What is a program?
 
-A program is a sequence of instructions to accomplish a task. A programming language is different than a "natural language" (i.e., English, French, Spanish); it's much more formal and meant to force the "speaker" of the language to be very specific. The "listener" of the language is the computer, and computers have difficulties with nuanced communication and thus require very detailed and specific instructions on how to perform any task. NOTE: Computers only look smart because some programmer(s) make it look that way.
+A program is a sequence of instructions to accomplish a task. A programming language is different than a "natural language" (i.e., English, French, Spanish); it's much more formal and meant to force the "speaker" of the language to be very specific. The "listener" of the language is the computer, and computers have difficulties with nuanced communication and thus require very detailed and accurate instructions on how to perform any task. NOTE: Computers only look smart because some programmer(s) make it look that way.
 
 ##  The Python Programming Language
 
-The programming language you will be learning in this course is Python. There are many other languages out there. Some languages are general purpose -  in that they are meant to allow a programmer to create virtually any application, while others are more domain specific and focus on a subset of programs/application development (i.e. Mathematica, MatLab)
+The programming language you will be learning in this course is Python. There are many other languages out there. Some languages are general-purpose;  in that, they are meant to allow a programmer to create virtually any application, while others are more domain specific and focus on a subset of programs/application development (i.e., Mathematica, MatLab)
 
-Python is classified as a "high-level" language. High-level languages are much easier to work with than low-level languages (such as assembler, and to some extent, C). Most programs are developed in high-level languages. Low-level languages are used to develop programs that are "close to the machine" and involve things like creating device drivers, and specific programs to work with low-level features of a computer chip.
+We classify Python as a "high-level" language. High-level languages are much easier to work with than low-level languages (such as assembler, and to some extent, C). Most programs are developed in high-level languages. Low-level languages are used to create programs that are "close to the machine" and involve things like creating device drivers, and specific applications to work with low-level features of a computer chip.
 
 ## Why learn Python?
 
 There are literally [hundreds of programming languages](https://en.wikipedia.org/wiki/List_of_programming_languages) to choose from.
 
-'Which language is more popular' is an often asked question. If you hear x language is the most popular, or y language has grown in use more than any other languages - such simple statements are often misguided. For instance, if you were working for company that developed very low level embedded systems (low level programming) used by motherboard manufacturers, you'd look foolish proposing that the company switch it's language to Java (a high level graphical programming language) because it was "more popular" than the current language the company was using (such as C, or assembler). So, when assessing what "the best language is", context matters.
+'Which language is more popular' is an often asked question. If you hear x language is the most popular, or y language has grown in use more than any other languages - such simple statements are often misguided. For instance, if you were working for a company that developed very low-level embedded systems (low-level programming) used by motherboard manufacturers, you'd look foolish proposing that the company switch it's language to Java (a high-level graphical programming language) because it was "more popular" than the current language the company was using (such as C, or assembler). So, when assessing what "the best language is," context matters.
 
 That being said, in aggregate, Python is one of the [most popular programming languages](https://stackoverflow.blog/2017/09/06/incredible-growth-python/) used within "high income" countries (United States, United Kingdom, Germany, Canada, etc.).
 
@@ -90,9 +90,9 @@ This course will give you the necessary foundational knowledge of the language a
 
 ## More background on Python
 
-Not named after snake, but from Monty Python (The original creator of Python, Guido Van Rosssum, was a big fan of Monty Python, and the  Python documentation and community can reflect this and be a bit humorous/whimsical)
+Not named after the snake, but from Monty Python (The original creator of Python, Guido Van Rossum, was a big fan of Monty Python, and the  Python documentation and community can reflect this and be a bit humorous/whimsical)
 
-Python has a unique culture and community based on it's core design philosophy on readability and syntax that enables you to write concise programs.
+Python has a unique culture and community based on its core design philosophy on readability and syntax that enables you to write concise programs.
 
 ##  Python Enhancement Proposals (PEPs)
 
@@ -111,13 +111,13 @@ Python has a unique culture and community based on it's core design philosophy o
 
 ## Python Terms
 
-* Code that fits the philosophy of python is called **Pythonic**.
+* Code that fits the philosophy of Python is called **Pythonic**.
     * Pythonic has many positive connotations
     * Unpythonic is a negative term 
 * Python practitioners are called Pythonistas, Pythonists (or other play-on-words of Python)
 
 
-Before we get into learning Python and programming, there is much for us to setup and understand.
+Before we get into learning Python and programming, there is much for us to set up and understand.
 
 In this course, you will be creating a workflow using tools such as Git, GitHub, and VSCode. These are the tools that a modern professional programmer will use. Git/GitHub skills are themselves especially new and in high demand.
 
@@ -128,7 +128,7 @@ In the following sections we'll get to know a bit more about your computer, lear
 [![Don't be a Pakled](http://img.youtube.com/vi/KeFoGo3N_4g/0.jpg)](https://youtu.be/KeFoGo3N_4g)
 
 
-# Getting to Know your Computer
+# Getting to Know Your Computer
 
 ![computer_intro_01](images/computer_intro_01.png)
 
@@ -147,16 +147,16 @@ A programmer creates Python code using an editor (we will be using an Integrated
 
 The editor saves this code in a .py file.
 
-The python interpreter compiles the .py  so that the code will run on the local machine/hardware. Though Python is often referred to an Interpreted language (versus a compiled language), Python does, in fact, compile the code into bytecode that then runs on a Python Virtual Machine. After running/using a python model you'll often see a .pyc file, this is python storing the compiled code in a bytecode file to save time and run faster in the future. If the code changes the .pyc will be updated).
+The python interpreter compiles the .py  so that the code will run on the local machine/hardware. Though Python is often referred to an Interpreted language (versus a compiled language), Python does, in fact, compile the code into bytecode that then runs on a Python Virtual Machine. After running/using a python model you'll often see a .pyc file, this is Python storing the compiled code in a bytecode file to save time and run faster in the future. If the code changes the .pyc will be updated).
 
-The .pyc file contains bytecode – this cannot be read by humans, nor directly by the computer hardware, it’s meant only to be read by the Python virtual machine.
+The .pyc file contains bytecode – this cannot be read by humans, nor directly by the computer hardware, it's meant only to be read by the Python virtual machine.
 
-The Python virtual machine reads the .pyc file and “runs” the program by translating the bytecode to local instructions specific to the “machine” (computing device which the program is running on)
+The Python virtual machine reads the .pyc file and "runs" the program by translating the bytecode to local instructions specific to the "machine" (computing device which the program is running on)
 
 
 # Introduction to the command line, terminal, and shell
 
-Any "power user" (of a computer) will know how to navigate and use the command prompt/terminal. In this course, you will need to develop basic terminal skills. To get started, let's look at the history of computers and where the interrelated terms "terminal", "shell", "console" and "command prompt" come from.
+Any "power user" (of a computer) will know how to navigate and use the command prompt/terminal. In this course, you will need to develop basic terminal skills. To get started, let's look at the history of computers and where the interrelated terms "terminal," "shell," "console" and "command prompt" come from.
 
 ## Setting the historical context
 
@@ -164,13 +164,13 @@ In the image below we find a PC on the left, and one of many "dumb terminals" on
 
 ![PC versus Terminal](images/pc_vs_terminal.jpg)
 
-Before the development of personal computers, computer systems were large and centralized. Access to these large "mainframe" (and later "mini") computers was generally through what were called "dumb" terminals. These terminals had very little to no processing power, and simply "knew" how to display text and read input that would be sent across a wire to the central computer. These terminals where physical extensions of the main computer. Many terminals were connected to the same computer.
+Before the development of personal computers, computer systems were large and centralized. Access to these large "mainframe" (and later "mini") computers were generally through what were called "dumb" terminals. These terminals had very little to no processing power, and simply "knew" how to display text and read input that would be sent across a wire to the central computer. These terminals where physical extensions of the main computer. Many terminals were connected to the same computer.
 
-Terminals were used by programmers and users to accomplish tasks. You might access via a user console, an operator console, or an administrator console. Each of these offered particular uses of the main computer. So, originally, the console was the physical terminal device that users used to access the computer.
+Terminals were used by programmers and users to accomplish tasks. You might access via a user console, an operator console, or an administrator console. Each of these offered particular uses of the main computer. So, initially, the console was the physical terminal device that users used to access the computer.
 
 With the advent of the PC, both the processing (mainframe) and the console (terminal) were merged into one personal device.
 
-Initial PC computers were not multi-tasking. There was only one user, using a single console, who would start and run one program at a time.
+Initial PCs were not multi-tasking. There was only one user, using a single console, who would start and run one program at a time.
 
 As PC's evolved, their operating systems became more sophisticated, and we began to see a duplication of the mainframe architecture; that is, a user could have multiple "terminals" (in this case, they would use software, not hardware) and run multiple programs.
 
@@ -179,33 +179,33 @@ As PC's evolved, their operating systems became more sophisticated, and we began
 
 ### So, terminal or console?
 
-For modern computers, should we see ways of accessing the computer as a terminal? or a console?
+For modern computers, should we see ways of accessing the computer as a terminal? Or a console?
 
 As we see from the historical context of the mainframe world, in a sense, we could use these terms interchangeably. When I'm working as an admin, I may open an admin console. This would be done by running terminal software. Frankly, though, these terms are often used synonymously.
 
 ### What about shells?
 
-Now, we have a third term that is often used synonymously with the other two -- that is "shell".
+Now, we have a third term that is often used synonymously with the other two -- that is "shell."
 
-When computers began having software terminals, the user needed a  "language" to communicate with the computer. The language we use is presented as a user shell... a wrapper, in a sense, or what has become known as a shell (program), that provides a user interface (through a language) to the system.
+When computers began having software terminals, the user needed a "language" to communicate with the computer. The language we use is presented as a user shell... a wrapper, in a sense, or what has become known as a shell (program), that provides a user interface (through a language) to the system.
 
 On Linux, and most flavors of Unix, the most common shell is BASH (Born Again Shell). This is also the shell used in MacOS (which is an extension of Unix). Another popular shell is zsh (z-shell) - used commonly by developers in MacOS.(but there are others as well)
 
 Microsoft and the general "PC" market did not evolve from Unix, and therefore developed a different technical approach to creating a terminal, and communicating via a shell to the core computer. There's no need to get into great detail about this for this class, other than to associate what we've already covered with how Windows handles things. In windows, you run either "CMD" or "PowerShell" to get terminal access to the computer.
 
-In windows, our terminal and shell is commonly called the "command prompt," "command terminal," or "command shell" (NOTE: A prompt is simply a curser that indicates that system is waiting for input). Most modern versions of windows (especially the server variety) have another type of terminal access, that referred to as "Powershell".
+In windows, our terminal and shell is commonly called the "command prompt," "command terminal," or "command shell" (NOTE: A prompt is simply a curser that indicates that system is waiting for input). Most modern versions of windows (especially the server variety) have another type of terminal access, that referred to as "Powershell."
 
 
 ### You will need to know the basics of the Bash shell
 
-In this course, we will review a few commands so that you can become familiar with the basic commands available in Bash (NOTE: With the installation of Git on a PC, a Bash shell is also installed). Bash shells behave pretty much the same as the Bash shells found on any Unix (i.e. Linux), MacOS system, and Windows. Though our primary focus though will be on learning Python, knowing bash will allow you better control of your computer.
+In this course, we will review a few commands so that you can become familiar with the basic commands available in Bash (NOTE: With the installation of Git on a PC, a Bash shell is also installed). Bash shells behave pretty much the same as the Bash shells found on any Unix (i.e., Linux), MacOS system, and Windows. Though our primary focus though will be on learning Python, knowing Bash will allow you better control of your computer.
 
 
 ### Resources for learning Bash.
 
 
 There are nine basic bash commands you should familiarize yourself with:
-```
+`"
 pwd
 cd
 ls
@@ -215,22 +215,22 @@ mv
 rm
 rmdir
 mkdir
-```
+`"
 
-To get help with any of these command, simply add the command line switch --help. For instance, to get help on ls, type
+To get help with any of these commands, simply add the command line switch --help. For instance, to get help on ls, type
 
-```
+`"
 ls --help
-```
+`"
 
-To run a program, you simply type the program name at the command prompt. For instance, if you wish to run a (non-compiled) version of a python program you're writing (which you've saved as hello.py) you would type the following.
+To run a program, you type the program name at the command prompt. For instance, if you wish to run a (non-compiled) version of a python program you're writing (which you've saved as hello.py), you would type the following.
 
-```
+`"
 python hello.py
-```
+`"
 
 
-Bash itself is also like a computer programming language. You will not be required to develop bash scripts in this course, but if you want to, you can quickly learn how to do such things. For a comprehensive introduction to the full "power" afforded by bash, I'd suggest working through the examples found http://www.tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html, then here http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html and finally here http://www.tldp.org/LDP/abs/html/.
+Bash itself is also like a computer programming language. You will not be required to develop bash scripts in this course, but if you want to, you can quickly learn how to do such things. For a comprehensive introduction to the full "power" afforded by Bash, I'd suggest working through the examples found http://www.tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html, then here http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html and finally here http://www.tldp.org/LDP/abs/html/.
 
 Also, there is a free course on Codeacademy (https://www.codecademy.com/learn/learn-the-command-line) that provides an excellent introduction to Bash.
 
@@ -243,7 +243,7 @@ Also, there is a free course on Codeacademy (https://www.codecademy.com/learn/le
   * create a new folder call btest (`mkdir btest`)
   * change directory into this new folder (`cd btest`)
   * NOTE: You can always test to see which directory you are in by running the command `pwd` (which stands for **p**rint **w**orking **d**irectory)
-  * using the "echo" command (this is a bash command that simply echos the given test to the output) and output redirection to create a new file called "about.txt" that contains your first and name name (`echo "FName LName" > about.txt`)
+  * using the "echo" command (this is a bash command that simply echos the given test to the output) and output redirection to create a new file called "about.txt" that contains your first and name (`echo "FName LName"> about.txt`)
   * now, move up one directory (`cd ..`)
   * Create a new directory called btest2 (`mkdir btest`)
   * Copy the content of `btest` into `btest2` 
@@ -259,7 +259,7 @@ allows you to manage large projects and your ongoing work better.
 
 VCS (Version Control Systems)/ CVS (Code versioning system) such as Git are incorporated into developer workflow. Within any professional programming environment, you will find a VCS is being used.
 
-When writing programs you'll often collaborate with others to create an application. Developing large applications can be complex, often involving 100's of files of source code, libraries and configuration files. Merely using a shared drive is not manageable -- as work can be easily lost when someone overwrites your work and does not merge it with their own work.  Even when not collaborating with others, developing software can often take months, or even years, of development effort. Managing all the files, updates to files, releases of the software, etc. can become very cumbersome and error-prone. This is where a VCS  can help significantly with the management of your application development.
+When writing programs you'll often collaborate with others to create an application. Developing large applications can be complex, often involving 100's of files of source-code, libraries and configuration files. Merely using a shared drive is not manageable -- as work can be easily lost when someone overwrites your work and does not merge it with their own work.  Even when not collaborating with others, developing software can often take months, or even years, of development effort. Managing all the files, updates to files, releases of the software, etc. can become very cumbersome and error-prone. This is where a VCS  can help significantly with the management of your application development.
 
 Though there are a number of CVS's out there, Git has grown to be one of the most popular (partly attributed to GitHub, which provide server space to store code and share with others -- creating a community of "social coding" where people can "fork" and update your code, provide suggestions or updates (through "pull requests") -- all when maintaining fine-grained control over the history of changes to files.
 
@@ -281,22 +281,22 @@ When changing files that are tracked by Git, they enter a **modified** state. On
 
 If a mistake is made, we can roll-back any changes to a previous commit. Also, we can have various versions of our project in branches. A common pattern is to have three levels of staging. The development branch, the testing branch, and then the master "release" branch.
 
-After exercise01 we should know have git installed, let's practice using it and github
+After exercise01 we should know have Git installed, let's practice using it and github
 
 # Exercise 02
 
-* Create a github account using your UT email address (if you already have a github account under an other email address, create a new account under your UT address - you can copy any content you'd like into your other repos at a later time)
-* Once you've created your account, send your professor an email with the subject GITHUB, and the body of the message containing your username an d your email that you used (which, again, needs to be your UT address).
-* As the professor received your emails, he will add your to the class repository. Once this is done, you will see a number of class repositories. 
+* Create a GitHub account using your UT email address (if you already have a GitHub account under another email address, create a new account under your UT address - you can copy any content you'd like into your other repos at a later time)
+* Once you've created your account, send your professor an email with the subject GITHUB, and the body of the message containing your username and the email that you used (which, again, needs to be your UT address).
+* As the professor received your emails, he will add yours to the class repository. Once this is done, you will see a number of class repositories. 
 * start a bash command prompt 
 * You will also need to make a few configuration changes to your local git configuration. Start a bash prompt and type the following:
   * Set username:
-    * `git config --global user.name "Fname lname"`
+    * `git config --global user.name "Fname lname "`
   * Set email:
-    * `git config --global user.email "MY_NAME@example.com"`
-  * Finally, to avoid having to type passwords each time you try to access GitHub (we'll see how to do this later), configure git to cache password:
+    * `git config --global user.email "MY_NAME@example.com" `
+  * Finally, to avoid having to type passwords each time you try to access GitHub (we'll see how to do this later), configure Git to cache password:
     * `git config --global credential.helper cache`
-    * The above command will default to caching password for 15 minutes. You can extend this after if you'd like
+    * The above command will default to caching the password for 15 minutes. You can extend this after if you'd like
       * `git config --global credential.helper 'cache --timeout=3600'`
       * NOTE: The above command will cache passwords for 1 hour.
 * Once you have completed these commands, you can close your bash terminal.
@@ -354,7 +354,7 @@ Today we covered much ground.
 
 Exercises are not marked. They are an opportunity for you to practice the material from class while getting support from the professor and peers.
 
->NOTE1: If you get stuck, you can reach out to fellow students and the professor. You will benefit most from this exercise is you first try on your own before seeking help. Trying to work through issues is how you develop your problem solving skills.
+>NOTE1: If you get stuck, you can reach out to fellow students and the professor. You will benefit most from this exercise is your first try on your own before seeking help. Trying to work through issues is how you develop your problem-solving skills.
 
 >NOTE2: I will be looking for evidence that you've completed the exercises when determining your final class participation grade and repository management grade.
 
