@@ -21,13 +21,14 @@
     - [You will need to know the basics of the Bash shell](#you-will-need-to-know-the-basics-of-the-bash-shell)
     - [Resources for learning Bash.](#resources-for-learning-bash)
 - [Exercise01](#exercise01)
-  - [Introduction to Git & GitHub](#introduction-to-git--github)
+  - [Introduction to DevOps, Social Coding, Git & GitHub](#introduction-to-devops-social-coding-git--github)
 - [Exercise 02](#exercise-02)
     - [Creating and using GitHub account](#creating-and-using-github-account)
 - [Exercise 03: Cloning course repos](#exercise-03-cloning-course-repos)
 - [Summary](#summary)
 - [In class work](#in-class-work)
   - [Practice Exercises](#practice-exercises)
+  - [Assignments](#assignments)
 
 # Class01
 
@@ -37,16 +38,14 @@ In this first class, I provide a (very) quick introduction to Python and compute
 ## Objectives
 
 * Introduce Basic Computer Architecture and Command Line interface
-* Introduce and install Git and GitHub
 * Provide an introduction to application development and the role of programming and programming languages.
-* Introduce Python (and the Anaconda Edition we'll be using)
-* Introduce VSCode editor
-* Develop your first program
+* Introduce and install Git and GitHub
 * Create a GitHub account and join the Team Repos for this class.
 * Clone the class repos into your project.
 * Practice staging, committing, pushing and pulling project changes.
-* Complete Assignment #1 and Quiz#1.
-
+* Complete Assignment #1 
+* Commit your first Journal entry
+   
 # Accessing Course Content
 
 All content for this course is available via GitHub. 
@@ -206,15 +205,15 @@ In this course, we will review a few commands so that you can become familiar wi
 
 There are nine basic bash commands you should familiarize yourself with:
 `"
-pwd
-cd
-ls
-cat
-cp
-mv
-rm
-rmdir
-mkdir
+pwd - Print Working Directory - Prints to the screen the directory your command prompt is current in. 
+cd - Change Directory - changes the directory to one given
+ls - List - list the contents of the current directory
+cat - Concatenate - this displays the content of a file to the screen
+cp - Copy - copies a given file to a given location
+mv - Move - Moves a file from one location to another (often used to rename a file)
+rm - Remove - Removes a file
+rmdir - Remove Directory
+mkdir - Make Directory
 `"
 
 To get help with any of these commands, simply add the command line switch --help. For instance, to get help on ls, type
@@ -222,6 +221,8 @@ To get help with any of these commands, simply add the command line switch --hel
 `"
 ls --help
 `"
+
+NOTE: Many of these commands have "switches", these are commands that are proceeded by one or two dashes (as you see with the help example above)
 
 To run a program, you type the program name at the command prompt. For instance, if you wish to run a (non-compiled) version of a python program you're writing (which you've saved as hello.py), you would type the following.
 
@@ -240,22 +241,30 @@ Also, there is a free course on Codeacademy (https://www.codecademy.com/learn/le
 * Run bash
   * go to your home directory (`cd ~`)
   * go into your Documents directory (for Mac -> `cd Documents`, for Windows -> `cd "My Documents"`)
-  * create a new folder call btest (`mkdir btest`)
-  * change directory into this new folder (`cd btest`)
-  * NOTE: You can always test to see which directory you are in by running the command `pwd` (which stands for **p**rint **w**orking **d**irectory)
-  * using the "echo" command (this is a bash command that simply echos the given test to the output) and output redirection to create a new file called "about.txt" that contains your first and name (`echo "FName LName"> about.txt`)
+  * create a new folder called itm695 (`mkdir itm695`)
+  * change directory into your new folder (`cd itm695`)
+  * inside the itm695 folder, create a new folder call ex01-a (`mkdir ex01-a`)
+  * change directory into this new folder (`cd ex01-a`)
+    * NOTE: You can always test to see which directory you are in by running the command `pwd` (which stands for **p**rint **w**orking **d**irectory)
+  * using the "echo" command (this is a bash command that simply echos the given test to the output) and output redirection to create a new file called "about.txt" that contains your first and name (`echo "FName LName" > about.txt`)
+  * test to see that the file exists by listing the contents of the directory (`ls`)
+  * display the content of the file to the screen to verify that you have correctly entered the data (`cat about.txt`)
   * now, move up one directory (`cd ..`)
-  * Create a new directory called btest2 (`mkdir btest`)
-  * Copy the content of `btest` into `btest2` 
-  * remove the btest directory (`rm -rf btest`)
-  * once you have finished, show the professor so that he can verify that you've done the work.
+  * Create a new directory called ex01-b (`mkdir ex01-b`)
+  * Copy the content of `ex01-a` into `ex01-b` (`cp ex01-a ex01-b`)
+  * remove the ex01-a directory (`rm -rf ex01-a`)
+  * rename ex01-b to ex01 (`mv ex01-b ex01`)
   
+NOTE: It is now expected that you have the basic ability to use a bash prompt to move files, copy files, create and remove directories, delete files, and understand how to redirect output to a file, and view the contents of a file. Getting comfortable with this may take a bit of practice. I'd encourage you to spend a bit of time trying these commands and coming up with your own scenarios to text and exercise your skills in this area. 
 
-## Introduction to Git & GitHub
 
-Git is a program used to manage code repositories. It provides strict version control, and
-allows you to manage large projects and your ongoing work better.
+## Introduction to DevOps, Social Coding, Git & GitHub
 
+I trending topic in software development and management is "DevOps" (short for Developer Operations). Managing a large programming project involved many programmers, designers, and testers (and others). Coordinating such development is tricky -- you must protect work, record changes, and in general manage the overall integrity of the projects code. A separate, but related trend we're seeing is the rise of "social coding", which is the proliferation of open-source projects where you can contribute to, fork/copy and extend, publish new projects - with a rising level of programming literacy, we're seeing a large "social" community developing where sites like GitHub are used to exchange, publish, and use code. 
+
+Git is a program used to manage code repositories. It provides strict version control, and allows you to manage large projects and your ongoing work better. Git is a modern tool that has overtaken many previous CVS (Cocde Versioning Systems), and it often the center piece of any DevOps. 
+
+NOTE: Git was developed by Linus Torvalds (of Linux fame) - I think it's important for you to understand something about the opensource/social-coding culture, the following video (TED interview) provides a nice intro to this culture -- https://www.youtube.com/watch?v=o8NPllzkFhE
 
 VCS (Version Control Systems)/ CVS (Code versioning system) such as Git are incorporated into developer workflow. Within any professional programming environment, you will find a VCS is being used.
 
@@ -264,7 +273,6 @@ When writing programs you'll often collaborate with others to create an applicat
 Though there are a number of CVS's out there, Git has grown to be one of the most popular (partly attributed to GitHub, which provide server space to store code and share with others -- creating a community of "social coding" where people can "fork" and update your code, provide suggestions or updates (through "pull requests") -- all when maintaining fine-grained control over the history of changes to files.
 
 The following two videos (10 and 15 minutes in length) provide a gentle introduction to Git and GitHub.
-
 
 
 [![Git Part 1](http://img.youtube.com/vi/9GKpbI1siow/0.jpg)](https://www.youtube.com/watch?v=9GKpbI1siow "Git Part 1")
@@ -352,12 +360,14 @@ Today we covered much ground.
 
 ## Practice Exercises
 
-Exercises are not marked. They are an opportunity for you to practice the material from class while getting support from the professor and peers.
+Exercises listed above are not marked. They are an opportunity for you to practice the material from class while getting support from the professor and peers.
 
 >NOTE1: If you get stuck, you can reach out to fellow students and the professor. You will benefit most from this exercise is your first try on your own before seeking help. Trying to work through issues is how you develop your problem-solving skills.
 
 >NOTE2: I will be looking for evidence that you've completed the exercises when determining your final class participation grade and repository management grade.
 
+## Assignments
+Go to your Assignments repo, and look for today's assignment(s). Assignments are marked by the professor. 
 
 
 
