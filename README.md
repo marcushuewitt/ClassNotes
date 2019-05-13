@@ -53,18 +53,17 @@ General format of class (note that duration of lecture may vary):
 * 05:00 - 06:45 Lecture and exercises
 * 06:45 - 07:00 break
 * 07:00 - 08:45 Lecture and exercises
-* 08:45 - 10:00 Assignment(s) & Quiz
+* 08:45 - 10:00 Assignment(s)
 
 All course announcements and grades will be stored using [Blackboard](https://ut.blackboard.com/).
 
-Most lecture material is written in Markdown (https://en.wikipedia.org/wiki/Markdown) and will be available on our class GitHub repo (we'll talk more about this later). Lectures will consist of reviewing and discussing the content loaded on GitHub as well as live demonstration. To keep things as flexible as possible, and to address any new topics that come up, the material for each class will be released incrementally (Class02 after Class01, Class03 after Class02, etc.).
+Most lecture material is written in Markdown (https://en.wikipedia.org/wiki/Markdown) and will be available on our class GitHub repository ('repo' for short - we'll talk more about this later). Lectures will consist of reviewing and discussing the content loaded on GitHub as well as live demonstration. To keep things as flexible as possible, and to address any new topics that come up, the material for each class will be released incrementally (Class02 after Class01, Class03 after Class02, etc.).
 
-In each class, you will have exercises, assignments (usually 1) and a quiz (quizzes will be made available on BlackBoard).
+In each class, you will have exercises and assignments. 
 
-**Exercises** are not directly marked (but, your portfolio mark will depend on them) and are used only for you to practice and develop your programming skills. The professor, and other students can help you with exercises -- but, try to do as much of them on your own as you can (Use this as an opportunity to learn to be self-sufficient. If you don't know something, you can look through notes, access websites, official Python documentation, etc. If you get stuck, reach out to the professor.)
+* **Exercises** are not directly marked (but, your portfolio mark will depend on them) and are used only for you to practice and develop your programming skills. The professor, and other students can help you with exercises -- but, try to do as much of them on your own as you can (Use this as an opportunity to learn to be self-sufficient. If you don't know something, you can look through notes, access websites, official Python documentation, etc. If you get stuck, reach out to the professor.)
 
-**Assignments** are submitted and marked. This must be your independent work; therefore, you can't ask for help from the professor or classmates.
-
+* **Assignments** are submitted and marked. This must be your independent work; therefore, you can't ask for help from the professor or classmates.
 
 ## Syllabus
 
