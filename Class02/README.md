@@ -2,39 +2,80 @@
 [TOC levels=1,2,3 numbered]: # "Class02"
 
 # Class02
-1. [Objectives:](#objectives)
-2. [Topics](#topics)
-    1. [Values, Variables, Statements and Expressions](#values-variables-statements-and-expressions)
-        1. [Statement](#statement)
-        2. [Values and data types](#values-and-data-types)
-        3. [Variables](#variables)
-        4. [String interlude](#string-interlude)
-        5. [Variables naming and keywords](#variables-naming-and-keywords)
-    2. [Statements](#statements)
-        1. [Expressions](#expressions)
-        2. [Integer division and the modulo operator (and integer division)](#integer-division-and-the-modulo-operator-and-integer-division)
-        3. [Order of operations](#order-of-operations)
-        4. [Type conversion](#type-conversion)
-        5. [Operations on Strings](#operations-on-strings)
-        6. [Other operators in Python](#other-operators-in-python)
-    3. [Getting user input](#getting-user-input)
-    4. [Composition](#composition)
-    5. [Using Multi-Line Statements](#using-multi-line-statements)
-        1. [Explicit line continuation](#explicit-line-continuation)
-        2. [Implicit line continuation](#implicit-line-continuation)
-    6. [Working with 'The Turtle'](#working-with-the-turtle)
-        1. [A basic turtle program](#a-basic-turtle-program)
-3. [Class work](#class-work)
-    1. [Exercises](#exercises)
-        1. [Exercise01](#exercise01)
-        2. [Exercise02](#exercise02)
-        3. [Exercise03](#exercise03)
-    2. [Assignment02](#assignment02)
+- [Class02](#class02)
+- [Objectives:](#objectives)
+  - [Some misc tasks...](#some-misc-tasks)
+- [Installation of Python and VSCode](#installation-of-python-and-vscode)
+- [Introduction to Python programming](#introduction-to-python-programming)
+- [Introduction to VSCode](#introduction-to-vscode)
+- [Introduction to Markdown](#introduction-to-markdown)
+- [Writing your first program](#writing-your-first-program)
+- [More on the version control system Git and GitHub](#more-on-the-version-control-system-git-and-github)
+- [From here on will be content for Class03](#from-here-on-will-be-content-for-class03)
+- [Topics](#topics)
+  - [Learning to "code"](#learning-to-%22code%22)
+  - [Values, Variables, Statements and Expressions](#values-variables-statements-and-expressions)
+    - [Statement](#statement)
+    - [Values and data types](#values-and-data-types)
+    - [Variables](#variables)
+    - [String interlude](#string-interlude)
+    - [Variables naming and keywords](#variables-naming-and-keywords)
+  - [Statements](#statements)
+    - [Expressions](#expressions)
+- [rotate patrick clockwise by 1/6th of a full rotation](#rotate-patrick-clockwise-by-16th-of-a-full-rotation)
+- [then move forward by 25 pixels](#then-move-forward-by-25-pixels)
+- [rotate patrick clockwise by 2/6th of a full rotation](#rotate-patrick-clockwise-by-26th-of-a-full-rotation)
+- [then move forward by 25 pixels](#then-move-forward-by-25-pixels-1)
+- [rotate patrick clockwise by 3/6th of a full rotation](#rotate-patrick-clockwise-by-36th-of-a-full-rotation)
+- [then move forward by 25 pixels](#then-move-forward-by-25-pixels-2)
+- [rotate patrick clockwise by 4/6th of a full rotation](#rotate-patrick-clockwise-by-46th-of-a-full-rotation)
+- [then move forward by 25 pixels](#then-move-forward-by-25-pixels-3)
+- [rotate patrick clockwise by 5/6th of a full rotation](#rotate-patrick-clockwise-by-56th-of-a-full-rotation)
+- [then move forward by 25 pixels](#then-move-forward-by-25-pixels-4)
+- [rotate patrick clockwise by 6/6th of a full rotation](#rotate-patrick-clockwise-by-66th-of-a-full-rotation)
+- [then move forward by 25 pixels](#then-move-forward-by-25-pixels-5)
+- [run the program](#run-the-program)
+    - [Exercise02](#exercise02)
+      - [Using user input to initialize turtle graphics](#using-user-input-to-initialize-turtle-graphics)
+    - [Exercise03](#exercise03)
+      - [Drawing using turtle.](#drawing-using-turtle)
+  - [Assignment02](#assignment02)
 
 # Objectives:
+* Installation of Python and VSCode
+* Introduction to Python programming
+* Introduction to VSCode 
+* Introduction to Markdown
+* Writing your first program
+* More on the version control system Git and GitHub
 
-* Complete Assignment01 from last Class.
+## Some misc tasks...
+* Review and discuss Assignment01 from last Class.
+* run a refresher/practice exercise
+* Discuss programming/coding learning "journey" (and how frustration is most likely a necessary part of the process)
 
+# Installation of Python and VSCode
+
+
+# Introduction to Python programming
+
+
+# Introduction to VSCode 
+
+
+# Introduction to Markdown
+
+
+# Writing your first program
+
+
+# More on the version control system Git and GitHub
+
+
+
+# From here on will be content for Class03
+
+* 
 * Understand and use Variables, Expressions and Statements
 
 * Converting variable type (aka type casting)
@@ -47,6 +88,11 @@
 
 
 # Topics
+
+## Learning to "code"
+
+https://coes.latech.edu/wp-content/uploads/sites/7/2018/07/130-student.pdf
+
 
 ## Values, Variables, Statements and Expressions
 
