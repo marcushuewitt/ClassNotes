@@ -81,14 +81,14 @@ So far, you've primarily been creating repos on GitHub, then cloning these to yo
 
 Here are the steps:
 * cd to your itm695 folder. 
-* Create a directory called c02ex02
+* Create a directory called c02ex03
 * cd into this directory
 * initialize a new repo inside this directory (`git init`)
 * Now, since this repo was not cloned from GitHub, github has not knowledge of this new repo. So, you will first create a new repo on github and set this as a remote repository. 
-  * Log into github and create a repo in your public area (the professor will show this on the screen). Call this repo `C02EX02`. Copy the address of this repo to the clipboard. 
+  * Log into github and create a repo in your public area (the professor will show this on the screen). Call this repo `C02EX03`. Copy the address of this repo to the clipboard. 
   * Once you've created your repo on github, go back to your bash terminal and add your new git repos as a remote. (`git remote add origin master <the address to the github repo>`)
   * Now, run the following command to verify that the remote called "origin" is setup (`git remote -v`) (NOTE: -v is a switch that tells git remote to display in verbose (aka, lot's of detail))
-* using bash, create a README.md file containing one line "#C02Ex02"
+* using bash, create a README.md file containing one line "#C02Ex03"
 * Commit this change. 
 * Push this change to the remote respo (on github)
 * Verify that this change had been uploaded into your github repo.
