@@ -24,7 +24,7 @@
   - [VSCode and Git](#vscode-and-git)
 - [Introduction to Markdown](#introduction-to-markdown)
 - [C2, Ex04 (the assignment formally known as Assignment01, Part04)](#c2-ex04-the-assignment-formally-known-as-assignment01-part04)
-- [Writing your first program](#writing-your-first-program)
+- [Next steps](#next-steps)
 
 # Objectives:
 * Review last class, and get more practice with Git
@@ -189,4 +189,6 @@ Copy the content your write for your Journal from last class into the C01_journa
 Commit this change (with an appropriate message) and push this to github. Use the integrated terminal in VSCode to do this. 
 
 
-# Writing your first program
+# Next steps
+
+You will now complete Assignment02. Also, you should now know how to create a Journal entry. Make sure you create a Journal entry and push it to you repo before you leave. 
