@@ -10,7 +10,7 @@ Anaconda is Python 3 with many of the common libraries used in data science adde
 
 ## Download and install Anaconda
 
-Download anaconda from the anacondo.org website. The download page is located
+Download anaconda from the anaconda.org website. The download page is located
 at https://www.anaconda.com/download/
 
 On this screen, you should see the option to install either Python 3.6 or
