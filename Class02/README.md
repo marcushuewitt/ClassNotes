@@ -4,9 +4,12 @@
 # Class02
 - [Class02](#class02)
 - [Objectives:](#objectives)
-  - [Some misc tasks...](#some-misc-tasks)
+- [Agenda](#agenda)
+- [C2, Ex01 (the assignment formally known as Assignment01, Part04)](#c2-ex01-the-assignment-formally-known-as-assignment01-part04)
+- [C2, Ex02](#c2-ex02)
+- [C3, Ex03](#c3-ex03)
 - [Installation of Python and VSCode](#installation-of-python-and-vscode)
-- [Introduction to Python programming](#introduction-to-python-programming)
+  - [The two major version of Python](#the-two-major-version-of-python)
 - [Introduction to VSCode](#introduction-to-vscode)
 - [Introduction to Markdown](#introduction-to-markdown)
 - [Writing your first program](#writing-your-first-program)
@@ -42,25 +45,50 @@
   - [Assignment02](#assignment02)
 
 # Objectives:
-* Installation of Python and VSCode
-* Introduction to Python programming
-* Introduction to VSCode 
-* Introduction to Markdown
-* Writing your first program
-* More on the version control system Git and GitHub
+* Review last class, and get more practice with Git
+* Install Python and VSCode
+* Understand basic navigation and use of VSCode 
+* Understand how to create documentation using Markdown
+* Write your first program
 
-## Some misc tasks...
+# Agenda
 * Review and discuss Assignment01 from last Class.
-* run a refresher/practice exercise
+* Complete Assignment01 part 4 as an exercise
+* Complete two additional exercises:
+  * Create a local repo, then push it to GitHub
+  * Pull request changes to a class repo
 * Discuss programming/coding learning "journey" (and how frustration is most likely a necessary part of the process)
+* Install Anaconda Python and VSCode
+* Write and run your first program
+* Setup VSCode as default editor for git
+  
+# C2, Ex01 (the assignment formally known as Assignment01, Part04)
+
+# C2, Ex02
+
+So far, you've primarly been creating repos on GitHub, then cloning these to your local harddrive. Though this is probably the most common approach, there are times where you may want to create the local repo (by local, I mean on your machine) first, and then push the repo up to GitHub (or other repo servers).
+
+Here are the steps:
+
+# C3, Ex03
 
 # Installation of Python and VSCode
 
+## The two major version of Python
 
-# Introduction to Python programming
+There are two versions of Python, the 2.x series, and the 3.x series. Unlike most languages that retain backward compatibility, version 3.x python shed some of the old ways of working in python. This was necessary to clean up and refresh the language (other languages, such as Java, have retained backward compatibility, but it also creates a lot of complexity as new layers of ways of doing things are plastered on top of old ways. With Python's clean break from the past, there were free to make changes and not increase the complexity of working in the language by having to retain old ways of doing things. There was a downside to this approach though, and that is that early Python programs needed to be "ported" (a computer programming term for rewriting the program) for the new Python 3.x language. Also, programmers had to learn the new syntax and concepts, and many were reluctant. It has taken many years, but much of the Python codebase has been ported to version 3.x, and most programmers now use the new version.
 
+
+Download and install the Anaconda Python distribution (https://anaconda.org/tcsmith314/dashboard)
+
+NOTE: See [here](anaconda_install.md) for detailed steps.
+
+Anaconda has the option to install VSCode. 
 
 # Introduction to VSCode 
+
+VSCode is an open-source project supported by Microsoft. When programming, programmers needs special tools to create, edit, run, and debug their code. The most basic of these tools is a Text Editor (for instance, MS Windows has a built in text editor, Notepad. Though you could use Notepad for your development, but there are better options.)
+
 
 
 # Introduction to Markdown
@@ -222,7 +250,7 @@ Open a Python Console and try the following:
 <class 'str'>
 ```
 
-Python is known as a **dynamically typed" language. Many languages, such as C, C++, Java, etc. are what is called **strongly typed** or **statically typed**. In statically typed languages, when a variable is created we must **declare** it's type. This is usefull for large programs with many programmers, as it forces programmers to be very explicit, and carfull about the variables they are using. But, statically types languages can oftern be much more verbose and not as programmer friendly as dynamically typed languages.
+Python is known as a **dynamically typed" language. Many languages, such as C, C++, Java, etc. are what is called **strongly typed** or **statically typed**. In statically typed languages, when a variable is created we must **declare** it's type. This is useful for large programing projects that involve many programmers, as it forces programmers to be very explicit and carful about the variables they are using. But, statically types languages can often be much more verbose and involve more coding than a dynamically typed languages.
 
 Since Python is a dynamically types language, Python will do two very useful things.
 1. It will infer the type of variable you need/are asking for.
