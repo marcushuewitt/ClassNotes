@@ -71,7 +71,7 @@ Let's add a few directories to your ST?? repo (your private repo). From last cla
   * Journal
   * Sandbox
   * Notes
-* Using bash, within each folder, create a README.md file (note that case matters, so be sure to match the case of any commands and file names). Within each readme file should be one line, `#<First Name> <Last Name>, <Folder Name>`.
+* Using bash, within each folder, create a README.md file (note that case matters, so be sure to match the case of any commands and file names). Within each readme file should be one line, `# <First Name> <Last Name>, <Folder Name>`.
 * Once you've made these changes, add these to staging, commit with a message "added default folder structure for private repo", and push the updates to the github server.
   
 
@@ -86,11 +86,11 @@ Here are the steps:
 * initialize a new repo inside this directory (`git init`)
 * Now, since this repo was not cloned from GitHub, github has not knowledge of this new repo. So, you will first create a new repo on github and set this as a remote repository. 
   * Log into github and create a repo in your public area (the professor will show this on the screen). Call this repo `C02EX03`. Copy the address of this repo to the clipboard. 
-  * Once you've created your repo on github, go back to your bash terminal and add your new git repos as a remote. (`git remote add origin master <the address to the github repo>`)
+  * Once you've created your repo on github, go back to your bash terminal and add your new git repos as a remote. (`git remote add origin <the address to the github repo>`)
   * Now, run the following command to verify that the remote called "origin" is setup (`git remote -v`) (NOTE: -v is a switch that tells git remote to display in verbose (aka, lot's of detail))
-* using bash, create a README.md file containing one line "#C02Ex03"
+* using bash, create a README.md file containing one line "# C02Ex03"
 * Commit this change. 
-* Push this change to the remote respo (on github)
+* Push this change to the remote repo (on github)
 * Verify that this change had been uploaded into your github repo.
 * From now on, when you want to push, or pull, content, `origin` is the remote github repo. NOTE: You can have multiple remotes, and give them unique names. By convention, origin is typically used as the name of a single remote repo server
  
