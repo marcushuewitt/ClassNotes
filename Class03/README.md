@@ -765,7 +765,7 @@ In this last example, you will need to use penup, pendown, and hideturtle method
 
 Complete Assignment03 and complete and post your Journal Entry for Class03. 
 
-NOTE: In this class, you've had to use git/github to post your work. This has provided you with further practice, and you should be getting very comfortable with the basic git/github commands and managing a repo. Next class, i'll start expanding your git./github repertoire again :). 
+NOTE: In this class, you've had to use git/github to post your work. This has provided you with further practice. By now, you should be getting very comfortable with the basic git/github commands and basic repo management. Next class, i'll start expanding your git./github repertoire again :). 
 
 
 
