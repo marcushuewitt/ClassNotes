@@ -1,7 +1,7 @@
-[TOC levels=1,2,3 numbered]: # "Class03"
+[TOC levels=1,2,3,4 numbered]: # "Class03"
 
-# Class03
-- [Class03](#class03)
+# Class04
+- [Class04](#class04)
 - [Objectives](#objectives)
 - [Topics](#topics)
   - [Structure programming](#structure-programming)
