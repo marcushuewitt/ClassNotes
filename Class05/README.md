@@ -14,6 +14,7 @@
     - [remove](#remove)
     - [insert](#insert)
   - [Dictionaries](#dictionaries)
+- [c05ex02](#c05ex02)
   - [Casting a tuple to a list](#casting-a-tuple-to-a-list)
   - [Collections](#collections)
   - [The 'in' Python Operator](#the-in-python-operator)
@@ -282,7 +283,7 @@ pets.values()
 dict_values(['Killer', 'Whiskers', 'Fang'])
 ```
 
-#c05ex02
+# c05ex02
 
 Write a program that uses a dictionary to translate a given digit (between 1 and 9) to it's word in French. Write a program that generates a random number between 1 and 9 (inclusive) and asks the user to enter the french word for that number. Display if they wre correct or not, and then display and ask them for another number, etc. The user can end the program by entering a negative number. 
 
