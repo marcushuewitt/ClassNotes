@@ -480,13 +480,14 @@ codes = random.sample(letters, k=len(letters))
 encrypt_key = dict(zip(letters,codes))
 decrypt_key = dict(zip(codes,letters))
 
-# insert todays phrase (this could be changed to query a website, or randomly sample a supplied file with list
-# of phrases
-plain_text= "The secret of getting ahead is getting started"
+# insert todays phrase (this could be changed to query a website, select from a supplied file with list
+# of phrases. Note here that we randomly select a phrase from the plain_text_list. 
+plain_text_list=["The secret of getting ahead is getting started", "For whom the bell tolls", "I can't get no satisfaction, but I try"]
+plain_text = plain_text_list[random.randint(0,len(plain_text_list))-1]
 
 # Here we scramble our phrase and create a new string called scrambled
 cipher_text = ''
-for i in phrase:
+for i in plain_text:
     if i in string.ascii_letters:
         cipher_text += encrypt_key[i]
     else:
