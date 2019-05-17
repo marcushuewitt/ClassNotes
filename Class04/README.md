@@ -4,10 +4,7 @@
 - [Class04](#class04)
 - [Objectives](#objectives)
 - [Topics](#topics)
-  - [Structure programming](#structure-programming)
-  - [Sequence](#sequence)
-  - [Conditional Selection](#conditional-selection)
-    - [Boolean values and expressions](#boolean-values-and-expressions)
+- [Boolean values and Logical expressions](#boolean-values-and-logical-expressions)
 - [define functions](#define-functions)
 - [main program](#main-program)
 - [C04Ex04](#c04ex04)
@@ -27,60 +24,19 @@
         *   for loops, while loops
 
 
-
-## Structure programming
-
-In the early days of programming, the use of "Go To" statements was quite prevalent. Go To statements allow the programming to make an arbitrary jump to another part of the program. Though this was convenient, it resulted in rather messy code. As programs become larger and more complex, this messy code "held back" the progress of computers, large projects were consuming an exorbitant (and increasing) amount of time debugging. "Goto" statements resulted in programmers producing "messy code" that also resulted in difficulties in reading another programmers code; which contributed to the decreasing productivity as the size of programming projects grew -- and also made finding bugs very difficult.
-
-In response, researchers started developing languages that eliminated the need for goto statements. One paper identified that any program can be written using three structures. 1) Sequence, 2) selection, and 3) iteration.
-
-## Sequence
-
-Sequence structures are simply parts of your program that run in a sequence, one line after the other. This is the only structure you've used thus far. 
-
-```python
-import math
-
-width=80
-print("*"*width)
-print("*** Welcome to the area of a circle calculator -- the best area of a circle  ***")
-print("*** program on the planet (or at least on part with the best                 ***")
-print("*"*width)
-print("\n\n")
-radius = float(input("Please enter the radius of the circle: "))
-print("\n\n")
-print("The area of a circle with radius",radius, "is", math.pi*radius**2,".")
-print("\n\n")
-print("Thank you for using our program. If you'd like to make a donation, please send")
-print("bitcoin to the the following address 0xA8...\n\n")
-```
-
-## Conditional Selection
-
-Selection is a process of choosing one of possibly many blocks of code to run based on run time conditions. Programs are rather uninteresting and limited unless they test conditions and change behavior depending on runtime conditions.
-
-NOTE: Portions of the following section are derived from "Thinking like a computer scientist" which is an open book project that is freely available on the Internet (and listed in the resource section of the course introduction)
-
-### Boolean values and expressions
+# Boolean values and Logical expressions
 
 As we saw in the previous class, some values in Python (and any programming languages) are boolean. The boolean type (or bool) can only take on one of two values, true or false.
 
-```python
->>> x = 1 < 2
->>> x
-True
->>> x = 1 > 2
->>> x
-False
->>> type(x)
-<class 'bool'>
-```
+So far, we have covered arithmetic and string expressions. Arithmetic expressions produce a number output (i.e. 1+2*4), a string expression produces a string output (i.e. "3"+"4"+"Hello).
+
+There is a third type of expression that we'll call a logical expression. Logical expressions produce a boolean result. Logical expressions are very important in programming, as these expressions allow us to make decisions within out program. 
 
 Boolean values are often "calculated" (much like arithmetic expressions) using a set of operators and a grammar. There are two categories of operators that are used in such expressions. The first are the `relational` operators. The second are the `boolean` operators.
 
 ```Interesting Fact: The name "boolean" comes from the British mathematician, George Boole. Boole first formulated rules for reasoning about and combining relationship checks. This work serves as the basis for all modern computer logic.```
 
-#### Relational operators
+## Relational operators
 
 These operators compare two numeric values and produce a true of false response. These are questions about the relationship of two values. These operators include less than (`<`), less than equal (`<=`), greater than (`>`), greater than equal ('>'), equal (`==`), and no equal (`!=`).
 
@@ -122,14 +78,14 @@ Here is a summary table of the logical operators in Python.
 | !=            |   ==              |
 
 
-### Boolean operators
+## Boolean operators
 
-We often need to combine relational tests into a longer test of conditions. We do this using    boolean operators`, these operators include AND, OR, and NOT.
+We often need to combine relational tests into a longer test of conditions. We do this using  `boolean operators`, these operators include **and**, **or**, and **not**.
 
 To understand how these operators work, we can use what are called  `truth tables`.
 
 
-#### `and`
+### `and`
 
 |   A   |  B    | A and B   |
 | :---: | :---: | :---: |
@@ -159,7 +115,7 @@ False
 False
 ```
 
-#### `or`
+### `or`
 
 |   A   |  B    | A or B   |
 | :---: | :---: | :---: |
@@ -187,7 +143,7 @@ True
 False
 ```
 
-### `!`
+## `!`
 
 |   A   |  !A   |
 |  :---: | :---: |
@@ -221,6 +177,40 @@ True
 True
 ```
 
+# Structured programming
+
+In the early days of programming, the use of "GoTo" statements was quite prevalent. Goto statements allow the programming to make an arbitrary jump to another part of the program. Though this was convenient, it resulted in rather messy code. As programs become larger and more complex, this messy code "held back" the progress of computers, large projects were consuming an exorbitant (and increasing) amount of time debugging. "Goto" statements resulted in programmers producing "messy code" that also resulted in difficulties in reading another programmers code; which contributed to the decreasing productivity as the size of programming projects grew -- and also made finding bugs very difficult.
+
+In response, researchers started developing languages that eliminated the need for goto statements. One paper identified that any program can be written using three structures. 1) Sequence, 2) selection, and 3) iteration.
+
+## Sequence
+
+Sequence structures are simply parts of your program that run in a sequence, one line after the other. This is the only structure you've used thus far. 
+
+```python
+import math
+
+width=80
+print("*"*width)
+print("*** Welcome to the area of a circle calculator -- the best area of a circle  ***")
+print("*** program on the planet (or at least on part with the best                 ***")
+print("*"*width)
+print("\n\n")
+radius = float(input("Please enter the radius of the circle: "))
+print("\n\n")
+print("The area of a circle with radius",radius, "is", math.pi*radius**2,".")
+print("\n\n")
+print("Thank you for using our program. If you'd like to make a donation, please send")
+print("bitcoin to the the following address 0xA8...\n\n")
+```
+
+## Conditional Selection
+
+Selection is a process of choosing one of possibly many blocks of code to run based on run time conditions. Programs are rather uninteresting and limited unless they test conditions and change behavior depending on runtime conditions.
+
+NOTE: Portions of the following section are derived from "Thinking like a computer scientist" which is an open book project that is freely available on the Internet (and listed in the resource section of the course introduction)
+
+
 ### Conditional execution (Selection)
 
 Selection structures are built using the Python keywords if, elif, and else.
@@ -241,7 +231,6 @@ else:
     print("a and y are not equal")
 ```
 
-
 ```python
 x = 3
 y = 4
@@ -251,8 +240,6 @@ if x != y:
 else: 
     print("x and y are equal")
 ```
-
-
 
 ```python
 x = 3
@@ -410,149 +397,16 @@ Python is a bit different from other languages wrt to the constraints used in fo
 
 ```python
 for x in range(0,5):
-  print('x = ', x)
+    print('x = ', x)
 for x in range(10):
-  print('x = ', x)
-for x in range(5:10:2):
+    print('x = ', x)
+for x in range(5,10,2):
     print('x = ', x)
 ```
 
 Python's approach allows us to do a number other convenient things -- like iterate through all members of any sequences- such as a tuple, a list, and even a string (these are data structures, and we've only covered string so far... but, we'll use list in an example below).
 
-# C04Ex02a
-
-Write a program that prints all the even numbers from zero to an integer value given by the user. 
-
-
-# C04Ex02a
-
-Update C04Ex02 to prints all numbers that are both a multiple of 3 and 5.
-
-
-#### looping through all characters in a  string
-
-Python makes it trivial to loop through every character found within a string.
-
-```python
-for letter in 'ITM695':
-  print('Current Letter :', letter)
-```
-
-We can find any length of string (this applies to other data structures such as Tuples, and Lists) using the len() method. We can use len() along with range() to do the following:
-
-```python
-s = 'ITM695'
-for i in range(len(s)):
-  print('Current Letter:',s[i])
-```
-
-NOTE: Any string (and as we'll see later, tuple, list, etc.) consists of multiple elements. To access an  individual element, we can use index notation. For example, if I have a string called name, I can access the first character using name[0], or the second character by using name[1]. In Python, and in all languages that I'm aware of other than R, the index starts at 0. (Think about it like this -- if you're on the 5th floor of a building, how many floors are you up? You're up 4 floors, not 5. In computer science, it's the distance from the start that we're interested in -- so, the first character is a distance of 0 from the start; much like the first floor is 0 floors up). We'll be covering indexing in much greater detail in a later class. 
-
-### Looping through all members of a list
-
-Lists are ordered sets of objects (tuples are immutable lists, while lists are mutable -- what this means, and what's significant about this will be covered later when we discuss tuples and lists in greater depth). Objects inside a list can be ANY python type. For example `alist=[1,3.14,"hello", True]`  is a list that contains an integer, a float, a string, and a bool). Lists are a very versatile data structure -- and are often used in python. We'll be covering lists (and related structures such as tuples, and dictionaries, in a later class)
-
-Here, we iterate through all the objects found within the list "langs"
-
-```python
-langs = ['Python', 'Java',  'C', 'R']  # this is a list data structure.
-for lang in langs:        # Second Example
-   print('Current language :', lang)
-```
-
-And, list with strings, we can also use an approach where we create an index to access the objects within a list:
-
-```python
-langs = ['Python', 'Java',  'C', 'R']
-for i in range(len(langs))
-   print('Current language :', lang[i])
-```
-NOTE: We can get the length of a string, or list, but using the len function. If we have a string `greetings="Hello"`, we can find how many characters are in the string by calling `num_chars=len(greetings)`.
-
-### While Loops
-
-While loops are the other common looping structure in Python.
-
-#### Finite while loop:
-
-Finite while loops are ones with a clearly defined terminating condition.
-
-```python
-count = 0
-while (count < 9):
-   print('The count is:', count)
-   count += 1
-```
-
-#### Infinite loop with terminating condition:
-
-There are times when we need to create a loop that, though containing a clearly defined terminating condition, the termination of the loop is dependent on user (or file) input.
-
-```python
-num = 1
-while (int(num) != 0):
-   num = input("Enter a number (0 to stop)  :")
-   print("You entered: ", num)
-```
-
-__NOTE__ Obviously, use infinite loops with care.
-
-
-### Break, continue and pass statements
-
-#### Break: Terminates current loop
-
-Break example
-```python
-for letter in "ITM695":
-    if letter == '4':
-        break
-    print(letter)
-```
-
-#### Continue: Stops executing the rest of the loop block, and starts next loop
-
-The continue statement returns control to the beginning of a while loop.
-
-Continue example
-```python
-while num > 0:
-  num = (int)input("Input a whole number less than 100: ")
-  if num > 99:
-    continue
-  print("Num = ", num)  
-```
-
-#### Pass: An empty, or null, statement that serves as a placeholder
-
-Pass comment is basically a blank, do nothing statement, that is used where syntax dictates that a statement must exist, but you have no reason to include a statement.
-
-Pass example
-```python
-for letter in "ITM695x-M19":
-  if letter == 'x':
-    pass # if we want to do nothing, we need to put a statment here, otherwise python will display an error
-  else:
-    print(letter,end="")
-
-```
-
-
-# C04Ex03 - Repeat asking for user input
-
-Note the following pattern of repeatedly asking a user for input:
-
-```python
-while True:
-    if (input("Do you wish to continue (y/n):)=="n"):
-       break
-    else:
-       print("Ok, you'd like to continue... let me think about that. Ok, I'm done thinking. Next.")
-```
-Write a program that calculates the area of a circle. The program should ask the user for a radius value, if this value is negative, you terminate the program with a nice goodbye message. If they enter a non-negative number, you calculate the area, and then prompt the user again to enter another radius value.
-
-
-## More on the Range function
+#### More on the Range function
 
 NOTE: This section is adapted from http://pythoncentral.io/pythons-range-function-explained/
 
@@ -601,6 +455,123 @@ Rules:
 -4
 ```
 
+
+#### Using a for loop to loop through all characters in a  string
+
+For loops not only work with the `range` function, but also allow us to walk through virtually any data structure that has multiple items. 
+
+For instance, Python makes it trivial to loop through every character found within a string.
+
+```python
+for letter in 'ITM695':
+  print('Current Letter :', letter)
+```
+
+We can find any length of string (this applies to other data structures such as Tuples, and Lists) using the len() method. We can use len() along with range() to do the following:
+
+```python
+s = 'ITM695'
+for i in range(len(s)):
+  print('Current Letter:',s[i])
+```
+
+NOTE: Any string (and as we'll see later, tuple, list, etc.) consists of multiple elements. To access an  individual element, we can use index notation. For example, if I have a string called name, I can access the first character using name[0], or the second character by using name[1]. In Python, and in all languages that I'm aware of other than R, the index starts at 0. (Think about it like this -- if you're on the 5th floor of a building, how many floors are you up? You're up 4 floors, not 5. In computer science, it's the distance from the start that we're interested in -- so, the first character is a distance of 0 from the start; much like the first floor is 0 floors up). We'll be covering indexing in much greater detail in a later class. 
+
+
+# C04Ex02a
+
+Write a program that prints all the even numbers from zero to an integer value given by the user. 
+
+# C04Ex02b
+
+Copy and update C04Ex02 to print all numbers that are both a multiple of 3 and 5.
+
+
+### While Loops
+
+While loops are the other common looping structure in Python.
+
+#### Finite while loop:
+
+Finite while loops are ones with a clearly defined terminating condition.
+
+```python
+count = 0
+while count < 9:
+   print('The count is:', count)
+   count += 1
+```
+
+#### Infinite loop with terminating condition:
+
+There are times when we need to create a loop that, though containing a clearly defined terminating condition, the termination of the loop is dependent on user (or file) input.
+
+```python
+num = 1
+while int(num) != 0:
+   num = input("Enter a number (0 to stop)  :")
+   print("You entered: ", num)
+```
+
+__NOTE__ Obviously, use infinite loops with care.
+
+
+### Controlling a loop via **break**, **continue** and **pass** statements
+
+#### Break: Terminates current loop
+
+Break example
+```python
+for letter in "ITM695":
+    if letter == '4':
+        break
+    print(letter)
+```
+
+#### Continue: Stops executing the rest of the loop block, and starts next loop
+
+The continue statement returns control to the beginning of a while loop.
+
+Continue example
+```python
+while num > 0:
+    num = int(input("Input a whole number less than 100: "))
+    if num > 99:
+        print("You entered a number that isn't less than 100.)
+        continue
+  print("Num = ", num)  
+```
+
+#### Pass: An empty, or null, statement that serves as a placeholder
+
+Pass comment is basically a blank, do nothing statement, that is used where syntax dictates that a statement must exist, but you have no reason to include a statement.
+
+Pass example
+```python
+for letter in "ITM695x-M19":
+    if letter == 'x':
+        pass # if we want to do nothing, we need to put a statement here, otherwise python will display an error
+    else:
+        print(letter,end="")
+
+```
+
+
+# C04Ex03 - Repeat asking for user input
+
+Note the following pattern of repeatedly asking a user for input:
+
+```python
+while True:
+    if (input("Do you wish to continue (y/n):)=="n"):
+       break
+    else:
+       print("Ok, you'd like to continue... let me think about that. Ok, I'm done thinking. Next.")
+```
+Write a program that calculates the area of a circle. The program should ask the user for a radius value, if this value is negative, you terminate the program with a nice goodbye message. If they enter a non-negative number, you calculate the area, and then prompt the user again to enter another radius value.
+
+
+
 ## Functions
 
 A function is a block of reusable code performs a task. Functions provide better modularity for your application and a high degree of code re-usability.
@@ -627,14 +598,12 @@ As we have seen already, Python gives us many built-in functions:
 A function is created with the def keyword. Unlike languages like Java, or C/C++, the indication of a block of code belonging to a function is through indentation (we've seen this already with loop structures).
 
 ```python
->>> def circle_area(radius):
-...    return(3.14*radius**2)
-... print(circle_area(1))
-3.14
->>> circle_area(1)
-3.14
->>> circle_area(2)
-12.56
+def circle_area(radius):
+    return(3.14*radius**2)
+
+print(circle_area(100)) # prints the area of a circle with radius 100
+print(circle_area(25)) # prints the area of a circle with radius 25
+
 ```
 The def keyword is followed by the function name with parentheses followed by a colon.
 
@@ -702,6 +671,44 @@ def calc_circle_area(user_input):  # user_input is a function that we will call 
 
 print(calc_circle_area(get_radius))  # we are sending a reference to the function get_radius
 ```
+### The return statement
+
+You may have noticed the use of a `return` statement in the example functions above. A return statement specifies a value to be returned the the caller (remember, functions are `called` from other parts of the program). Functions calculate a result, for instance, should return a value. Not all functions need to return a value though, and as you will see in the examples below, you can define functions that do not return a value.
+
+Let's say you want to create a function that calculates the future value of an investment. Clearly, you would want this function to return a value -- that is the calculated result from a present value invested at a given rate of return over a certain number of terms. 
+
+```python
+def FV(PV,r,n):
+    return PV*(1+r)**n
+
+print(FV(100,.1,1)) # prints the future value of $100 invested for one year at an annual rate of return of 10%
+```
+
+But, there are times when you don't need the function to return anything...
+
+```python
+def banner(str):
+    print('*'*len(str+2))
+    print('*'+str+'*')
+    print('*'*len(str+2))
+
+banner("Hello")
+
+banner("World')
+```
+
+Now, if we mistakenly try to store the result of calling a function that doesn't return a value, Python will not generate an error, but instead return a special type called None (which means "nothingness").
+
+```python
+def banner(str):
+    print('*'*len(str+2))
+    print('*'+str+'*')
+    print('*'*len(str+2))
+
+x = banner("Hello")
+print(x) # this will print "None" to the screen, because the banner function does not return a value
+```
+
 
 ### Functions and argument passing
 
@@ -764,91 +771,6 @@ def mult2(x,y=1):
 print(mult2(3,4))
 print(multf(3))
 ```
-
-#### Send an arbitrary list of arguments of unknown length
-
-```python
-def manyf(x, *args):
-    print("x = " + str(x))
-    if len(args) > 0:
-        print("the rest  = " + str(list(args)))
-
-print("calling manyf(10)...")
-manyf(10)
-
-print("calling manyf(10, 11)...")
-manyf(10, 11)
-
-print("calling manyf(10, 11, 12, 134)...")
-manyf(10, 11, 12, 134)
-```
-
-The output from this...
-
-```
-calling manyf(10)...
-x = 10
-calling manyf(10, 11)...
-x = 10
-the rest  = [11]
-calling manyf(10, 11, 12, 134)...
-x = 10
-the rest  = [11, 12, 134]
-```
-
-You can select which arguments get which value by using **kwargs (this sends the arguments as a dictionary, rather than a list. We'll covering lists and dictionaries in greater depth next class)
-
-> NOTE: kwargs is short for **k**ey**w**ord **a**rguments.
-
-
-```python
-def manyf(x,y=1, **kwargs):
-    print("x = " + str(x))
-    print("y = " + str(y))
-    if 'a' in kwargs:
-        print('a = ' + str(kwargs['a']))
-    if 'b' in kwargs:
-        print('b = ' + str(kwargs['b']))
-    print(kwargs)
-
-manyf(10)
-manyf(10, 11)
-manyf(x=10, y=11, a=12, b=134)
-```
-
-
-
-NOTE: The following is illegal. YOU MUST HAVE ALL ARGUMENTS WITH A DEFAULT PARAMETER AT THE END OF THE ARGUMENT LIST.
-
-```python
-def manyf(y=1, x):
-    print("x = " + str(x))
-    print("y = " + str(y))
-
-manyf(10)
-manyf(10, 11)
-```
-
-
-Also note, that if you are using unnamed list of arguments ( using `*args`), you will get an error is your attempt to send named arguments.
-
-```python
-def manyf(x,y=1, *args):
-    print(x)
-    print(y)
-    print(args)
-
-print(">>>1")
-manyf(10)
-print(">>>2")
-manyf(10, 11)
-print(">>>3")
-manyf(y=10, x=11)
-manyf(10,11,12,13,14)
-manyf(12, 13, 14, x=11, y=12)  # this is OK
-manyf(y=10, x=11, 12, 13, 14)  # but this line causes and error. keyword args must follow positional args
-```
-
 
 # C04Ex04
 
