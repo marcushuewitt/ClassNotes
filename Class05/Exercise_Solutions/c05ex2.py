@@ -11,12 +11,13 @@ e2f = {1:"un",
     9:"neuf"}
 
 print("Welcome to the french numbers game.")
-num = random.randint(1,9)
+
 while True:
+    num = random.randint(1,9)
     ans = input("What is the french word for " + str(num) + " (print exit to exit): ")
     if ans == e2f[num]:
         print("Congratulations")
-    elif ans.lower() == ans:
+    elif ans.lower() == "exit":
         break
     else:
         print("Sorry, the french word for", num, "is", e2f[num])
