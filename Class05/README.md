@@ -3,6 +3,7 @@
 # Class04
 - [Class04](#class04)
 - [Objectives](#objectives)
+- [c05ex01](#c05ex01)
 - [Data Structures](#data-structures)
   - [The Standard Type Hierarchy](#the-standard-type-hierarchy)
   - [Tuples](#tuples)
@@ -35,7 +36,7 @@
 * Introduce data structures (tuple, list, dictionary)
 * Learn how to create functions that return multiple values, and can accept an arbitrary number of values. 
 
-#c05ex01
+# c05ex01
 
 Write a function that calculates the future value of a given present value (PV), invested for n terms, at an expected rate of return of r.
 
