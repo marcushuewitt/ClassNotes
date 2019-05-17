@@ -28,8 +28,6 @@
   - [C03Ex03 - Write four investment calculators](#c03ex03---write-four-investment-calculators)
   - [Working with 'The Turtle' (aka "Turtle Graphics")](#working-with-the-turtle-aka-%22turtle-graphics%22)
     - [A basic turtle program](#a-basic-turtle-program)
-- [Class work](#class-work)
-  - [Exercises](#exercises)
     - [C03Ex04 - Drawing using turtle.](#c03ex04---drawing-using-turtle)
   - [Before you leave](#before-you-leave)
 
@@ -647,7 +645,6 @@ Write for programs to calculate each of the four values. They should be named as
 * FutureValueCalc.py
 * PresentValueCalc.py
 * RateOfReturnCalc.py
-* TermOfDeposit.py
 
 >NOTE1: Remember from you "math days" that inverse power is the root, that is, if you are looking for the cube root of 64, then just take this to the power 1/3 (the square root woul be by 64**(1/2), the cube root would be 64**(1/3), the quad root would be 64**(1/4) etc.). The parentheses are important, so don't leave them out!
 
@@ -734,16 +731,6 @@ Turtles start at (0,0) in the x, y plan. Sending a message to a turtle to move f
 NOTE: We will note be covering every method and operation you can do with Turtle graphics. For a full description of all the available features found in the turtle module, see the official documentation [here](https://docs.python.org/3.7/library/turtle.html?highlight=turtle)
 
 Now, move to the bottom of the screen and do [Exercise02](#exercise02) and [Exercise03](#exercise03)
-
-# Class work
-
-## Exercises
-
-Exercises are not marked. They are an opportunity for you to practice the material from class while getting support from the professor and peers.
-
->NOTE1: If you get stuck, you can reach out to fellow students and the professor. You will benefit most from this exercise is you first try on your own before seeking help. Trying to work through issues is how you develop your problem solving skills.
-
->NOTE2: I will be looking for evidence that you've completed the exercises when determining your final class participation grade and repository management grade.
 
 
 
