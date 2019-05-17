@@ -667,7 +667,7 @@ Write a program that simply prints out any command line arguments given to the p
 
 ## Test1
 
-Test1 will go live after class. You will find it in the Test Repo within the Classes gitHub site. You must submit your answers to your personal private repo (ST0??) by 3:00pm before the start of Monday's class. Late submissions will not be accepted, so be sure to start this early. If you leave this to the last minute you will risk failing the test. NOTE: This test also tests your ability to work with git/github. You'll need to be able to push this to your github repo in order to submit your test. 
+Test1 will go live after class. You will find it in the Test Repo within the Classes gitHub site. You must submit your answers to your personal private repo (ST0??) by **2:00pm** before the start of Monday's class. Late submissions will not be accepted, so be sure to start this early. If you leave this to the last minute you will risk failing the test. NOTE: This test also tests your ability to work with git/github. You'll need to be able to push this to your github repo in order to submit your test. 
 
 
 
