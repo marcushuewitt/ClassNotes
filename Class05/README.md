@@ -5,7 +5,6 @@
 - [Objectives](#objectives)
 - [c05ex01](#c05ex01)
 - [Data Structures](#data-structures)
-  - [The Standard Type Hierarchy](#the-standard-type-hierarchy)
   - [Tuples](#tuples)
   - [Lists](#lists)
   - [Manipulating lists](#manipulating-lists)
@@ -48,10 +47,6 @@ Test your function to ensure it works.
 We've covered variables such as int, bool, float and str. These, in a sense, are data structures, but we refer to them as `primatives`. You can also think of these are `atomic`, in that they are relatively indivisible and consist of `one thing`.
 
 Often in programming we want to store more than `one thing`, we often want to group things into data structures. We call these `composite` data structures. This is where Python really shines, as Python has a number of built in composite data structures that are quire useful. We'll be covering a subset of these data structures: Tuples, Lists, and Dictionaries.
-
-## The Standard Type Hierarchy
-
-Python has a standard Hierarchy of types. I'd encourage you to familiarize yourself with this Hierarchy (https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy)
 
 ## Tuples
 
