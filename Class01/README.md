@@ -262,7 +262,7 @@ NOTE: It is now expected that you have the basic ability to use a bash prompt to
 
 I trending topic in software development and management is "DevOps" (short for Developer Operations). Managing a large programming project involved many programmers, designers, and testers (and others). Coordinating such development is tricky -- you must protect work, record changes, and in general manage the overall integrity of the projects code. A separate, but related trend we're seeing is the rise of "social coding", which is the proliferation of open-source projects where you can contribute to, fork/copy and extend, publish new projects - with a rising level of programming literacy, we're seeing a large "social" community developing where sites like GitHub are used to exchange, publish, and use code. 
 
-Git is a program used to manage code repositories. It provides strict version control, and allows you to manage large projects and your ongoing work better. Git is a modern tool that has overtaken many previous CVS (Cocde Versioning Systems), and it often the center piece of any DevOps. 
+Git is a program used to manage code repositories. It provides strict version control, and allows you to manage large projects and your ongoing work better. Git is a modern tool that has overtaken many previous CVS (Code Versioning Systems), and it often the center piece of any DevOps. 
 
 NOTE: Git was developed by Linus Torvalds (of Linux fame) - I think it's important for you to understand something about the opensource/social-coding culture, the following video (TED interview) provides a nice intro to this culture -- https://www.youtube.com/watch?v=o8NPllzkFhE
 
