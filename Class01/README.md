@@ -184,7 +184,7 @@ As we see from the historical context of the mainframe world, in a sense, we cou
 
 ### What about shells?
 
-Now, we have a third term that is often used synonymously with the other two -- that is "shell."
+Now, we have a third term that is often used synonymously with the other two, a "shell."
 
 When computers began having software terminals, the user needed a "language" to communicate with the computer. The language we use is presented as a user shell... a wrapper, in a sense, or what has become known as a shell (program), that provides a user interface (through a language) to the system.
 
