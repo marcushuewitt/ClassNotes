@@ -1,7 +1,7 @@
 [TOC levels=1,2,3 numbered]: # "Class04"
 
-# Class04
-- [Class04](#class04)
+# Class05
+- [Class05](#class05)
 - [Objectives](#objectives)
 - [c05ex01](#c05ex01)
 - [Data Structures](#data-structures)
@@ -18,7 +18,7 @@
   - [Casting a tuple to a list](#casting-a-tuple-to-a-list)
   - [Collections](#collections)
   - [The 'in' Python Operator](#the-in-python-operator)
-- [c05ex3a](#c05ex3a)
+- [c05ex03a](#c05ex03a)
 - [c05ex03b](#c05ex03b)
   - [using zip to create a dictionary](#using-zip-to-create-a-dictionary)
     - [Example: Word Scramble](#example-word-scramble)
@@ -437,7 +437,7 @@ cat
 rabbit
 ```
 
-# c05ex3a
+# c05ex03a
 
 Create a tuple containing the names of all the courses you've completed at UT (for instance, ITM695, etc.)
 
