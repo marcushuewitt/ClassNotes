@@ -250,7 +250,7 @@ Using a constructor (looks like a function):
 {'rabbit': 'Fang', 'dog': 'Fluffy', 'cat': 'Whiskers'}
 ```
 
-Dictionaries are particular good at finding data:
+Dictionaries are particularly good at finding data:
 
 ```
 
@@ -285,7 +285,7 @@ dict_values(['Killer', 'Whiskers', 'Fang'])
 
 # c05ex02
 
-Write a program that uses a dictionary to translate a given digit (between 1 and 9) to it's word in French. Write a program that generates a random number between 1 and 9 (inclusive) and asks the user to enter the french word for that number. Display if they wre correct or not, and then display and ask them for another number, etc. The user can end the program by entering a negative number. 
+Write a program that uses a dictionary to translate a given digit (between 1 and 9) to it's word in French. Write a program that generates a random number between 1 and 9 (inclusive) and asks the user to enter the french word for that number. Display if they were correct or not, and then display and ask them for another number, etc. The user can end the program by entering a negative number. 
 
 
 
