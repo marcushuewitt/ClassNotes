@@ -6,13 +6,13 @@
 - [Review](#review)
   - [I’m really, really stuck and I need help.](#im-really-really-stuck-and-i-need-help)
   - [More on GitHub](#more-on-github)
-  - [c05ex0a - proposing a change to a repo you do not have write access to (using only github)](#c05ex0a---proposing-a-change-to-a-repo-you-do-not-have-write-access-to-using-only-github)
-  - [c05ex0b - updating forked repo with upstream changes](#c05ex0b---updating-forked-repo-with-upstream-changes)
-  - [c05ex0c - proposing a change to a repo you do not have write access to (from a local copy usinfg git, vscode, and github)](#c05ex0c---proposing-a-change-to-a-repo-you-do-not-have-write-access-to-from-a-local-copy-usinfg-git-vscode-and-github)
-- [c05ex0d - handle merge conflicts between local and remote repo (easy - when no changes have been made to the same file)](#c05ex0d---handle-merge-conflicts-between-local-and-remote-repo-easy---when-no-changes-have-been-made-to-the-same-file)
-- [c05ex0e - handle merge conflicts between local and remote repo (more difficult - when changes have been made to the same file)](#c05ex0e---handle-merge-conflicts-between-local-and-remote-repo-more-difficult---when-changes-have-been-made-to-the-same-file)
-- [c05ex0f - creating branches, switching between them, and merging content between branches](#c05ex0f---creating-branches-switching-between-them-and-merging-content-between-branches)
-- [c05ex0g - restoring to a previous commit](#c05ex0g---restoring-to-a-previous-commit)
+  - [c06ex0a - proposing a change to a repo you do not have write access to (using only github)](#c06ex0a---proposing-a-change-to-a-repo-you-do-not-have-write-access-to-using-only-github)
+  - [c06ex0b - updating forked repo with upstream changes](#c06ex0b---updating-forked-repo-with-upstream-changes)
+  - [c06ex0c - proposing a change to a repo you do not have write access to (from a local copy usinfg git, vscode, and github)](#c06ex0c---proposing-a-change-to-a-repo-you-do-not-have-write-access-to-from-a-local-copy-usinfg-git-vscode-and-github)
+- [c06ex0d - handle merge conflicts between local and remote repo (easy - when no changes have been made to the same file)](#c06ex0d---handle-merge-conflicts-between-local-and-remote-repo-easy---when-no-changes-have-been-made-to-the-same-file)
+- [c06ex0e - handle merge conflicts between local and remote repo (more difficult - when changes have been made to the same file)](#c06ex0e---handle-merge-conflicts-between-local-and-remote-repo-more-difficult---when-changes-have-been-made-to-the-same-file)
+- [c06ex0f - creating branches, switching between them, and merging content between branches](#c06ex0f---creating-branches-switching-between-them-and-merging-content-between-branches)
+- [c06ex0g - restoring to a previous commit](#c06ex0g---restoring-to-a-previous-commit)
 - [The enumerate function](#the-enumerate-function)
 - [Strings and string formatting](#strings-and-string-formatting)
   - [Split](#split)
@@ -94,21 +94,21 @@ It's time to revisit Git/GitHub. In the following exercises, you will learn...
    
 For each of the following exercises, follow along with the professor as he walks you through this. 
 
-## c05ex0a - proposing a change to a repo you do not have write access to (using only github)
+## c06ex0a - proposing a change to a repo you do not have write access to (using only github)
 
 Using the github interface, propose a change to a public repo https://github.com/tcsmith-tampa/c06ex0 by adding a hello message (Hello from <your name>, <URL to your GitHub profile>. (NOTE: This is the same as Test1 part1 -- so this is a refresher)
 
-See video example [here]().
+See video example [here](https://use.vg/bzwtBd).
 
-## c05ex0b - updating forked repo with upstream changes
+## c06ex0b - updating forked repo with upstream changes
 
 Note that your local fork of the c06ex0a repo is behind the upstream repo (this is what the original repo from which the fork came is called). 
 
 Refresh your copy of the c06ex0a repo with all changes made to the upstream repo (see the video posted by the professor on refreshing local fork with any changes from the upstream repo)
 
-See video example [here]().
+See video example [here](https://use.vg/hDmpAi).
 
-## c05ex0c - proposing a change to a repo you do not have write access to (from a local copy usinfg git, vscode, and github)
+## c06ex0c - proposing a change to a repo you do not have write access to (from a local copy usinfg git, vscode, and github)
 
 Clone your c06ex0 fork to your computer. 
 
@@ -118,9 +118,9 @@ Add, commit and push this change to README.md to your c06ex0 repo.
 
 Log into your github account and create a pull request to apply this new commit to the upstream repo. 
 
-NOTE: See video walk-through example [here]().
+NOTE: See video walk-through example [here](https://use.vg/yQMOqi).
 
-# c05ex0d - handle merge conflicts between local and remote repo (easy - when no changes have been made to the same file)
+# c06ex0d - handle merge conflicts between local and remote repo (easy - when no changes have been made to the same file)
 
 You may get into a situation where you have changes on your local repo that haven't been pushed to the remote (guithub) repo, but have also made changes on the remote (github) repo. In such situations, you'll find that you can push your work from the local repo to the server -- as you will see an error displayed. 
 
@@ -144,9 +144,9 @@ In this case, we'll simulate this by adding a file to my local repo, and adding 
 
 * After doing this, your local repo has merged the changes on github to the changes made to your local repo. The final step now is to push everything up to the server (to ensure that both the local and server repos are now in sync).
 
-NOTE: See video walk-through example [here]().
+NOTE: See video walk-through example [here](https://use.vg/AfhyBB).
 
-# c05ex0e - handle merge conflicts between local and remote repo (more difficult - when changes have been made to the same file)
+# c06ex0e - handle merge conflicts between local and remote repo (more difficult - when changes have been made to the same file)
 
 Set VSCode as your merge editor:
 
@@ -170,6 +170,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 * To resolve this, you'll need to edit your README.md file. 
 * open README.md in vscode, and you'll see something like the following
+
 ```
 # c06Ex0d
 
@@ -197,7 +198,7 @@ Another line added
   
 
 
-# c05ex0f - creating branches, switching between them, and merging content between branches
+# c06ex0f - creating branches, switching between them, and merging content between branches
 
 
 As discussed in class, a typical development repo will have multiple branches. A common structure is to have master, testing, and dev (possibly multiple dev branches, named by feature of the person working on the branch).
@@ -225,7 +226,9 @@ So far you've only made a change to the files in the dev branch (which is your c
 NOTE: If you wish to have a deeper understanding on how branching works in git, read sections [3.1](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), [3.2](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), [3.3](https://git-scm.com/book/en/v2/Git-Branching-Branch-Management), [3.4](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows), [3.5](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches),[3.6](https://git-scm.com/book/en/v2/Git-Branching-Rebasing), and [3.7](https://git-scm.com/book/en/v2/Git-Branching-Summary) for the official guide of git branching (and related merging and rebasing)
 
 
-# c05ex0g - restoring to a previous commit
+# c06ex0g - restoring to a previous commit
+
+This isn't an exercise you need to complete -- but, I'd suggest that you experiment with....
 
 Often you'll only find a mistake until after a commit is made. First, it's best to identify mistakes before attempting to stage a file. If you happen to stage an incorrect file, but have not yet committed it, you can run the following command to empty your staging area and restore the files to their previous state ('git reset HEAD`). But, if you've messed things up and have committed these errors to the repo, you may wish to revert back to a previous commit. To reset to a previous commit (and erase all changes since), use the command 'git reset HEAD --hard`.
 
