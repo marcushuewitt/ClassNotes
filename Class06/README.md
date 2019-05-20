@@ -19,7 +19,7 @@
   - [String slicing](#string-slicing)
   - [String find](#string-find)
     - [Other methods](#other-methods)
-- [c05ex01:](#c05ex01)
+- [c06ex01:](#c06ex01)
   - [String formatting](#string-formatting)
     - [Format specification](#format-specification)
 - [Working with data from files](#working-with-data-from-files)
@@ -29,7 +29,7 @@
   - [Writing Text Files](#writing-text-files)
     - [Using With statement](#using-with-statement)
   - [Reading Text Files](#reading-text-files)
-- [c06Ex2](#c06ex2)
+- [c06ex02](#c06ex02)
   - [Binary files](#binary-files-1)
   - [Structured plaintext files](#structured-plaintext-files)
     - [CSV](#csv)
@@ -402,10 +402,11 @@ print(outstr)
 print("-".join([str(x**3) for x in range(100)]))
 ```
 
-# c05ex01:
+# c06ex01:
 
 Write a program that accepts user input of a string, and prints that string with only the first and last characters as upper, amd the other characters as lower.
 
+PS: see if you can do c06ex01 with at most two lines of code.
 
 ## String formatting
 
@@ -622,7 +623,7 @@ __NOTE2__: Since the backslash character (used in windows filepaths) is an escap
 
 
 
-# c06Ex2
+# c06ex02
 
 Using VSCode, create a sample text file. Write a few sentences in the file and save it as input_e2.txt.
 
