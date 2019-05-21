@@ -33,8 +33,11 @@
   - [Binary files](#binary-files-1)
   - [Structured plaintext files](#structured-plaintext-files)
     - [CSV](#csv)
+- [c06ex03](#c06ex03)
     - [JSON data](#json-data)
+- [c06ex04](#c06ex04)
       - [Shelf files](#shelf-files)
+- [c06ex05](#c06ex05)
 - [Working with OS calls](#working-with-os-calls)
   - [Getting a list of all files within a directory](#getting-a-list-of-all-files-within-a-directory)
   - [Example patterns](#example-patterns)
@@ -340,6 +343,18 @@ print(adict["third"][0]) # key error, there is no key called "third"
 print(adict["second"][::-1]) # the second element of the list, reversed
 ```
 
+We can also have a list of lists, that have strings (or any other types we'd like)...
+
+```python
+alist = [["hello", "world"], ["another", "list"], ["yet", "another", "list"]]
+print(alist[0][0]) # hello
+print(alist[1][0]) # another
+print(alist[2][0]) # yet
+print(alist[2][0][0]) # y
+print(alist[0][0][0]) # h
+print(alist[0][1][0:2]) # wo
+```
+
 ## String find
 
 String find allows you to search a string. It returns an index to the start of the string found, or -1 if the string was not found.
@@ -594,7 +609,7 @@ Reading text files is similar to the write. We'll use the with statement for our
 If you want to read the entire file contents into a string, use the read function
 ```python
 with open("test.txt", "r") as file:
-  content = file.read()
+  content = file.read() # reads the entire file into memory as a string
 print(content)
 ```
 
@@ -627,7 +642,7 @@ __NOTE2__: Since the backslash character (used in windows filepaths) is an escap
 
 Using VSCode, create a sample text file. Write a few sentences in the file and save it as input_e2.txt.
 
-Write a program called remove_vowels.py that accepts two filenames via command line arguments. The program will read the first filename provided and output file called with the second filename with all vowels removed (both lowercase and upper case)
+Write a program called remove_vowels.py that accepts two filenames via command line arguments. The first filename will be used as the input file, and the second filename sill be used as the output file. The program will read input file, remove any vowels, and output the results to the output file. 
 
 Ex:
 ```
@@ -744,6 +759,11 @@ with open ('sample2.csv', 'w') as csv_file:
 
 ```
 
+# c06ex03
+
+Using vscode, create a csv file with four columns, and three rows, of random numbers. 
+
+Write a python program that reads this csv file, and creates a new csv file that has one column, and four rows, that contains the sum of each row of the input file. Name the output file whatever you'd like. Also, write the program so that it can accept an input file with any number of rows.
 
 ### JSON data
 
@@ -863,6 +883,11 @@ print('RE-READ FROM JSON: ', somedata)
 __NOTE__: Notice that dictionary data types are unordered. If you print them, the order may not display in the same order in which the items were created, also, the order could change each time it is printed.
 
 
+# c06ex04
+
+Write a python program that creates and saves (to a JSON file) a data structure that consists of a list, within which there is one dictionary, and one list. Put in any data within these that you wish. Call the file out.JSON.
+
+
 #### Shelf files
 
 With the "shelf" modules, we can save python objects from memory into binary shelf files.
@@ -891,6 +916,13 @@ values -> [{1: 'un', 2: 'deux', 3: 'trois'}, ['Fluffy', 'Pookems', 'Killa']]
 ```
 
 __NOTE__: For information on Python object persistence and shelve, read more [here](https://docs.python.org/3.4/library/shelve.html). Using shelve will not be a requirement for any test or individual assignment in this course... but, it's good to know that it exists, just in case you could use something like this for your final project.
+
+# c06ex05
+
+Write a python program that creates and saves (to a Shelf file) a data structure that consists of a list, within which there is one dictionary, and one list. Put in any data within these that you wish (use the same one you created in c06ex03). Call the file out.shelf.
+
+Write a second python program that reads the out.shelf file, and prints the contents of the file to the screen.
+
 
 <strike>
 # Working with OS calls
