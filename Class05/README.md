@@ -45,9 +45,9 @@ Test your function to ensure it works.
 
 # Data Structures
 
-We've covered variables such as int, bool, float and str. These, in a sense, are data structures, but we refer to them as `primatives`. You can also think of these are `atomic`, in that they are relatively indivisible and consist of `one thing`.
+We've covered variables such as int, bool, float and str. These, in a sense, are data structures, but we refer to them as `primitives`. You can also think of these are `atomic`, in that they are relatively indivisible and consist of `one thing`.
 
-Often in programming we want to store more than `one thing`, we often want to group things into data structures. We call these `composite` data structures. This is where Python really shines, as Python has a number of built in composite data structures that are quire useful. We'll be covering a subset of these data structures: Tuples, Lists, and Dictionaries.
+Often in programming we want to store more than `one thing`, we often want to group things into data structures. We call these `composite` data structures. This is where Python really shines, as Python has a number of built in composite data structures that are quite useful. We'll be covering a subset of these data structures: Tuples, Lists, and Dictionaries.
 
 ## Tuples
 
