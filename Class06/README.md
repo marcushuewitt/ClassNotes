@@ -761,7 +761,7 @@ with open ('sample2.csv', 'w') as csv_file:
 
 # c06ex03
 
-Using vscode, create a csv file with four columns, and three rows, of random numbers. 
+Using vscode, create a csv file with four columns, and three rows, of random numbers (any numbers you'd like). 
 
 Write a python program that reads this csv file, and creates a new csv file that has one column, and four rows, that contains the sum of each row of the input file. Name the output file whatever you'd like. Also, write the program so that it can accept an input file with any number of rows.
 
@@ -885,7 +885,7 @@ __NOTE__: Notice that dictionary data types are unordered. If you print them, th
 
 # c06ex04
 
-Write a python program that creates and saves (to a JSON file) a data structure that consists of a list, within which there is one dictionary, and one list. Put in any data within these that you wish. Call the file out.JSON.
+Write a python program that creates and saves (to a JSON file) a data structure that consists of a list, within which there is one dictionary, and one tuple. Put in any data within these that you wish. Call the file output.JSON.
 
 
 #### Shelf files
@@ -897,12 +897,12 @@ import shelve
 pets = ['Fluffy', 'Pookems', 'Killa']
 e2f = {1:"un", 2:"deux", 3:"trois"}
 
-with shelve.open('mydata.dat') as shelfie:
+with shelve.open('mydata.dat', "r") as shelfie:
   shelfie['pets'] = pets
   shelfie['english to french'] = e2f
 
 
-with shelve.open('mydata.dat') as shelfie:
+with shelve.open('mydata.dat', "w") as shelfie:
   print("keys --->",list(shelfie.keys()))
   print("values ->", list(shelfie.values()))
 ```
