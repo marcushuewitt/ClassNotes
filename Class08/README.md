@@ -1,4 +1,4 @@
-[TOC levels=1,2,3 numbered]: # "Class07"
+[TOC levels=1,2,3 numbered]: # "Class08"
 
 # Class20
 - [Class20](#class20)
@@ -31,13 +31,14 @@ Open Weather Map (https://openweathermap.org/price) provides a weather API (they
 
 NOTE: Make sure that VSCode has the proper Python interpreter selected. CMD-SHIFT-P will bring up a command dialog, start typing 'python select interpreter' (without the quotes), then select the command Python: Select Interpreter from this list. Then you may need to select the repo to which to apply this (this may be specific to MacOS, and you may not see this). Finally, select the anaconda 64 bit interpreter in the list (you may only have one to select from, but on a mac you will have a few options)
 
-To run the following program you will first need to install a module. All the modules we've used thus far (i.e. math, turtle, json, and shelf) are included in the python standard distribution. Other modules need to be installed. Anaconda has a built-in package manager called "conda". To install the required package, at your command prompt type in "conda install requests" - and follow the instructions to install. 
+ALERT: To run the following program you will first need to install the "requests" module. All the modules we've used thus far (i.e. math, turtle, json, and shelf) are included in the python standard distribution. Other modules need to be installed. Anaconda has a built-in package manager called "conda". To install the requests package, at your command prompt type in "conda install requests" - and follow the instructions to install.  The requests package provides "HTTP" request functions to assist development of programs that connect to remove servers using the HTTP protocol. We will user the requests package to connect to Web APIs (for more information on the requests package, see [here](https://realpython.com/python-requests/))
+
 
 
 ```python
 import requests
 import json
-api_key = "34074bd64c6a43eb8ed19a04dbf0d216" # this is the professors appid, please use your own
+api_key = "34074bd64c6a43eb8ed19a04dbf0d216" # this is the professors appid, please use/create your own
 base_url = 'http://api.openweathermap.org/data/2.5/weather?'
 full_url = base_url +  "&q=Tampa" + '&APPID=' + api_key 
 print(full_url)
