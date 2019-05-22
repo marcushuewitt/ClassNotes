@@ -861,7 +861,7 @@ print('ORIGINAL DATA: ', somedata)
 with open('data.json', 'w') as fout:
   json.dump(somedata, fout)
 
-with open('data.json', 'r') is fin:
+with open('data.json', 'r') as fin:
   somedata = json.load(fin)
 
 print('READ FROM JSON FILE: ', somedata)
@@ -870,10 +870,10 @@ somedata['fname'] = 'Al'
 print('ORIGINAL BUT EDITED IN MEMORY: ', somedata)
 
 with open('data.json', 'w') as fout:
-  json.dump(somedata, f)
+  json.dump(somedata, fout)
 
 with open('data.json', 'r') as fin:
-  somedata = json.load(f)
+  somedata = json.load(fin)
 
 print('RE-READ FROM JSON: ', somedata)
 
