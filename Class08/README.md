@@ -71,15 +71,11 @@ json_string = f.text
 if len(json_string) < 1:
     print("The API is currently unavailable. Please try again in a few minutes. ")
 else: 
-    try:
-        fout = open("weather.json", 'w')
-        fout.write(json_string)
-        fout.close()
-    except IOError:
-        print("ERROR: Error opening weather.json for writing. Please correct the problem and try again")
+    fout = open("weather.json", 'w')
+    fout.write(json_string)
+    fout.close()
 ```
-
-[The python file can be found here](./Examples/weather1.py)
+[The above python file can be found here](./Examples/weather1.py)
 
 Like many web api's, the Open Weather Map API returns a JSON file, the above program saves this file and you can open this using VSCode 
 
@@ -149,6 +145,8 @@ temp_f = (9/5)*(temp_k - 273) + 32
 
 print("The current temperature is {:.2f}.".format(temp_f))
 ```
+[The above python file can be found here](./Examples/weather2.py)
+
 
 Now, let's simply read and display the temperature directly from the Web API (rather than saving it to a file)
 
@@ -169,6 +167,7 @@ else:
     temp_f = (9/5) * (temp_k - 273.15) + 32 
     print("Current temperature in fahrenheit is {:.2f}".format(temp_f))
 ```
+[The above python file can be found here](./Examples/weather3.py)
 
 
 
@@ -187,6 +186,8 @@ json_string = f.text
 with open("nyt.json", "w") as fout:
     fout.write(json_string)
 ```
+[The above python file can be found here](./Examples/nyt1.py)
+
 
 The above code simply saves the returns json data to a local file. You can open this file in JSON, and to make the formatting "prettier", select CMD-ALT-K (on windows) or CMD-OPT-K on MacOS. 
 
@@ -787,6 +788,8 @@ print("{:<14}{}".format("DESCRIPTION:", data['results'][0]['book_details'][0]['d
 print("{:<14}{}".format("AUTHOR:",data['results'][0]['book_details'][0]['author']))
 print("{:<14}{}".format("ISBN:", data['results'][0]['book_details'][0]['primary_isbn13']))
 ```
+[The above python file can be found here](./Examples/nyt2.py)
+
 
 Finally, let's write a program that does this all once (get's the data from the server and displays the results)
 
@@ -802,4 +805,4 @@ print("{:<14}{}".format("DESCRIPTION:", data['results'][0]['book_details'][0]['d
 print("{:<14}{}".format("AUTHOR:",data['results'][0]['book_details'][0]['author']))
 print("{:<14}{}".format("ISBN:", data['results'][0]['book_details'][0]['primary_isbn13']))
 ```
-
+[The above python file can be found here](./Examples/nyt3.py)
