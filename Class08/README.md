@@ -3,7 +3,7 @@
 # Class20
 - [Class20](#class20)
 - [Objectives](#objectives)
-- [Online (Web) API's (example weather, stock ticker)](#online-web-apis-example-weather-stock-ticker)
+- [Online (Web) API's (examples: weather, NYT best sellers list)](#online-web-apis-examples-weather-nyt-best-sellers-list)
   - [Case1: Open Weather Map](#case1-open-weather-map)
   - [Case2: NYT Best Seller List](#case2-nyt-best-seller-list)
 
@@ -18,7 +18,7 @@
 * How to call / use Web API's (and revisit of JSON)
 
 
-# Online (Web) API's (example weather, stock ticker)
+# Online (Web) API's (examples: weather, NYT best sellers list)
 
 There are many Web API's (application programming interface) available on the internet (see github page here https://github.com/toddmotto/public-apis_). These API's are services that programs you write can access. 
 
