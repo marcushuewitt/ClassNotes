@@ -1,7 +1,7 @@
 [TOC levels=1,2,3 numbered]: # "Class08"
 
-# Class20
-- [Class20](#class20)
+# Class08
+- [Class08](#class08)
 - [Objectives](#objectives)
 - [Online (Web) API's (examples: weather, NYT best sellers list)](#online-web-apis-examples-weather-nyt-best-sellers-list)
   - [Case1: Open Weather Map](#case1-open-weather-map)
