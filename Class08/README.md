@@ -3,6 +3,11 @@
 # Class08
 - [Class08](#class08)
 - [Objectives](#objectives)
+- [Practice exercises](#practice-exercises)
+  - [c08ex01 - Write text to a file](#c08ex01---write-text-to-a-file)
+  - [c08ex02 - Read text from a file](#c08ex02---read-text-from-a-file)
+  - [c08ex03 - Save a data structure as a JSON file to be read later](#c08ex03---save-a-data-structure-as-a-json-file-to-be-read-later)
+  - [c08ex04 - Recreate a data structure saved as a JSON file](#c08ex04---recreate-a-data-structure-saved-as-a-json-file)
 - [Online (Web) API's (examples: weather, NYT best sellers list)](#online-web-apis-examples-weather-nyt-best-sellers-list)
   - [Case1: Open Weather Map](#case1-open-weather-map)
   - [Case2: NYT Best Seller List](#case2-nyt-best-seller-list)
@@ -16,6 +21,25 @@
   * Recreate a data structure saved as a JSON file. 
   * Review Assignment05
 * How to call / use Web API's (and revisit of JSON)
+
+# Practice exercises
+
+## c08ex01 - Write text to a file
+
+Write a command line program that accepts a filename argument (only one argument, no more no less) and writes the phrase "Hello World" to the given filename. 
+
+
+## c08ex02 - Read text from a file
+
+Write a command line program that accepts a filename argument (only one argument, no more no less) and reads and displays the contents of this file to the screen.
+
+## c08ex03 - Save a data structure as a JSON file to be read later
+
+Write a command line program that accepts a filename argument (only one argument, no more no less). Inside this program, you'll create a data structure that is a list containing two elements; a list of numbers from 1 to 5, and a dictionary within which there are two elements; the first has a key of "fname" and a value that is your first name, the second has a key of "lname", and has a value that is your last name. The program should write this data structure as json data (serialize the data structure) into the filename given by the command line argument. 
+
+## c08ex04 - Recreate a data structure saved as a JSON file
+
+Write a command line program that accepts a filename argument (only one argument, no more no less). This program will read the given file as a json file, and attempt to create an in memory data structure from this data (de-serialize the data).
 
 
 # Online (Web) API's (examples: weather, NYT best sellers list)
