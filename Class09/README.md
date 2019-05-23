@@ -1,6 +1,7 @@
 # Class 09
 
 - [Class 09](#class-09)
+- [c09ex01 - "Chuckifier"](#c09ex01---%22chuckifier%22)
 - [Jupyter Notebooks](#jupyter-notebooks)
     - [Installing Jupyter Notebooks](#installing-jupyter-notebooks)
     - [Using jupyter notebooks](#using-jupyter-notebooks)
@@ -10,7 +11,7 @@
     - [Modes](#modes)
     - [Cell type](#cell-type)
 
-#c09ex01 - "Chuckifier"
+# c09ex01 - "Chuckifier"
 
 Write a command line program that accepts a first and last name and prints a message from the Chuck Norris Web API with the given First and Last name. 
 
@@ -98,4 +99,4 @@ CTRL-Enter | Run the contents of a code cell, or render the contents of a Markdo
 A great "cheatsheet" can be found here https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf/
 
 
-For the remaining portion of this class, we will work in the class09.ipynb file (a jupyter notebook). You'll need to download and copy this file into your personal repo directory where you're keeping class notes. You can start a jupyter notebook server in the directory (using bash) and then select this file (within jupyter) to open.
+For the remaining portion of this class, we will work in the class09.ipynb file (a jupyter notebook). You'll need to download and copy this file into your personal repo directory where you're keeping class notes. You can start a jupyter notebook server in the directory (using bash) and then select this file (within jupyter) to open.which python3.
